@@ -1,0 +1,11 @@
+C:\Sk\EHMS\EHMSModel\bin\Debug\net8.0\EHMSModel.deps.json
+C:\Sk\EHMS\EHMSModel\bin\Debug\net8.0\EHMSModel.dll
+C:\Sk\EHMS\EHMSModel\bin\Debug\net8.0\EHMSModel.pdb
+C:\Sk\EHMS\EHMSModel\obj\Debug\net8.0\EHMSModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Sk\EHMS\EHMSModel\obj\Debug\net8.0\EHMSModel.AssemblyInfoInputs.cache
+C:\Sk\EHMS\EHMSModel\obj\Debug\net8.0\EHMSModel.AssemblyInfo.cs
+C:\Sk\EHMS\EHMSModel\obj\Debug\net8.0\EHMSModel.csproj.CoreCompileInputs.cache
+C:\Sk\EHMS\EHMSModel\obj\Debug\net8.0\EHMSModel.dll
+C:\Sk\EHMS\EHMSModel\obj\Debug\net8.0\refint\EHMSModel.dll
+C:\Sk\EHMS\EHMSModel\obj\Debug\net8.0\EHMSModel.pdb
+C:\Sk\EHMS\EHMSModel\obj\Debug\net8.0\ref\EHMSModel.dll

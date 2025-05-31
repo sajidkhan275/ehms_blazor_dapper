@@ -1,0 +1,19 @@
+﻿@page "/"
+
+@using EHMSWebApp.Interface
+@using EHMSModel
+@using Microsoft.AspNetCore.Authorization
+@using System.Security.Claims
+
+@inject IHttpContextAccessor httpContextAccessor
+@inject IEmployeeService employeeService;
+@inject NavigationManager navigation
+@inject AuthenticationStateProvider authenticationStateProvider
+@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Xsrf
+
+<PageTitle>EHMS</PageTitle>
+
+Welcome to Employee Health Management System
+
+<h1>@sname</h1>
+

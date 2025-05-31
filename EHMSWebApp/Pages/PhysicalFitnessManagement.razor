@@ -1,0 +1,117 @@
+﻿@page "/physical-fitness"
+@using EHMSWebApp.Interface
+@using EHMSModel
+@inject IEmployeePhysicalFitnessService physicalFitnessService;
+@inject IEmployeeService employeeService;
+
+@inject IHttpContextAccessor httpContextAccessor
+@inject AuthenticationStateProvider authenticationStateProvider
+
+<h3 class="text-start">Employee Physical Fitness</h3>
+
+<div class="mb-3">
+    <input type="text" class="form-control" placeholder="Search by Employee, Weight, Height, BMI" @bind="searchQuery" @oninput="OnSearchChange" />
+</div>
+
+@if (UserRoles.Any(role => role == (int)UserRole.Admin || role == (int)UserRole.Employee))
+{
+    @if (!physicalFitnessExist)
+    {
+        <div class="text-start mb-3">
+            <button class="btn btn-primary" @onclick="OpenAddDialog">Add New Employee Physical Fitness</button>
+        </div>
+    }
+}
+
+
+@if (filteredphysicalFitness != null)
+{
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th @onclick='() => SortEmployees("EmployeeName")'>Employee @GetSortIcon("EmployeeName")</th>
+                    <th @onclick='() => SortEmployees("Weight")'>Weight @GetSortIcon("Weight")</th>
+                    <th @onclick='() => SortEmployees("Height")'>Height @GetSortIcon("Height")</th>
+                    <th @onclick='() => SortEmployees("BMI")'>BMI @GetSortIcon("BMI")</th>
+                    @if (UserRoles.Any(role => role == (int)UserRole.Admin || role == (int)UserRole.Employee) && physicalFitnessExist)
+                    {
+                        <th>Actions</th>
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var employee in pagedphysicalFitness)
+                {
+                    <tr>
+                        <td>@employee.EmployeeName</td>
+                        <td>@employee.Weight</td>
+                        <td>@employee.Height</td>
+                        <td>@employee.BMI</td>
+                        @if (UserRoles.Any(role => role == (int)UserRole.Admin || role == (int)UserRole.Employee))
+                        {
+                            @if (employee.EmpId == EmpId)
+                            {
+                                <td>
+                                    <button class="btn btn-warning" @onclick="() => OpenEditDialog(employee)">Edit</button>
+                                    <button class="btn btn-danger" @onclick="() => ShowDeleteDialog(employee.EmployeePhysicalFitnessId)">Delete</button>
+                                </td>
+                            }
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="d-flex justify-content-between">
+        <button class="btn btn-secondary" @onclick="PrevPage" disabled="@(currentPage == 1)">Previous</button>
+        <span>Page @currentPage of @totalPages</span>
+        <button class="btn btn-secondary" @onclick="NextPage" disabled="@(currentPage == totalPages)">Next</button>
+    </div>
+}
+
+@if (showAddEditDialog)
+{
+    <div class="modal fade show" style="display:block; background-color: rgba(0, 0, 0, 0.9);" tabindex="-1" aria-labelledby="fitnessModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="fitnessModalLabel">@((isEdit ? "Edit" : "Add New") + " Physical Fitness")</h5>
+                    <button type="button" class="btn-close" @onclick="CloseDialog" aria-label="Close"></button>
+                </div>
+                <EditForm Model="@currentphysicalFitness" OnValidSubmit="SavePhysicalFitness">
+                    <DataAnnotationsValidator />
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="empId" class="form-label">Employee</label>
+                            <InputText id="empId" @bind-value="employeeWithRoleDetails.EmployeeDetails.EmployeeName" class="form-control" disabled="true" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="weight" class="form-label">Weight</label>
+                            <InputNumber id="weight" @bind-value="currentphysicalFitness.Weight" class="form-control" />
+                            <ValidationMessage For="@(() => currentphysicalFitness.Weight)" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="height" class="form-label">Height</label>
+                            <InputNumber id="height" @bind-value="currentphysicalFitness.Height" class="form-control" />
+                            <ValidationMessage For="@(() => currentphysicalFitness.Height)" />
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" @onclick="CloseDialog">Cancel</button>
+                        <button type="submit" class="btn btn-success">Save</button>
+                    </div>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+}
+
+<DeleteConfirmation Show="@showDeleteDialog"
+                    Title="Delete Physical Fitness Record"
+                    Message="Are you sure you want to delete this record?"
+                    OnDeleteConfirmed="HandleDeleteConfirmed"
+                    OnCancel="CloseDeleteDialog"
+                    ItemId="@deleteRecordId" />
+

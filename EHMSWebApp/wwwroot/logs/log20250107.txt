@@ -1,0 +1,153 @@
+2025-01-07 16:21:38.231 +05:30 [INF] User profile is available. Using 'C:\Users\mohammed.sajid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-01-07 16:21:38.834 +05:30 [INF] Now listening on: https://localhost:5163
+2025-01-07 16:21:38.873 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-01-07 16:21:38.875 +05:30 [INF] Hosting environment: Development
+2025-01-07 16:21:38.876 +05:30 [INF] Content root path: C:\Sk\EHMS\EHMSWebApp
+2025-01-07 16:21:39.838 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/ - null null
+2025-01-07 16:21:40.261 +05:30 [INF] Executing endpoint '/_Host'
+2025-01-07 16:21:40.293 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2025-01-07 16:21:40.303 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-01-07 16:21:40.305 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-01-07 16:21:40.371 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-07 16:21:40.442 +05:30 [INF] Executed page /_Host in 145.9612ms
+2025-01-07 16:21:40.446 +05:30 [INF] Executed endpoint '/_Host'
+2025-01-07 16:21:40.457 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/ - 200 null text/html; charset=utf-8 626.1586ms
+2025-01-07 16:21:40.457 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/css/site.css - null null
+2025-01-07 16:21:40.457 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/EHMSWebApp.styles.css - null null
+2025-01-07 16:21:40.457 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/css/bootstrap/bootstrap.min.css - null null
+2025-01-07 16:21:40.473 +05:30 [INF] The file /css/bootstrap/bootstrap.min.css was not modified
+2025-01-07 16:21:40.473 +05:30 [INF] The file /EHMSWebApp.styles.css was not modified
+2025-01-07 16:21:40.473 +05:30 [INF] The file /css/site.css was not modified
+2025-01-07 16:21:40.475 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/css/bootstrap/bootstrap.min.css - 304 null text/css 18.2576ms
+2025-01-07 16:21:40.476 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/EHMSWebApp.styles.css - 304 null text/css 18.8703ms
+2025-01-07 16:21:40.477 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/css/site.css - 304 null text/css 19.7463ms
+2025-01-07 16:21:40.491 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2025-01-07 16:21:40.492 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/css/open-iconic/font/css/open-iconic-bootstrap.min.css - null null
+2025-01-07 16:21:40.497 +05:30 [INF] The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2025-01-07 16:21:40.498 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/css/open-iconic/font/css/open-iconic-bootstrap.min.css - 304 null text/css 6.7347ms
+2025-01-07 16:21:40.499 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-07 16:21:40.512 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2025-01-07 16:21:40.508 +05:30 [INF] Executing endpoint 'Blazor static files'
+2025-01-07 16:21:40.521 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-01-07 16:21:40.523 +05:30 [INF] Executed endpoint 'Blazor static files'
+2025-01-07 16:21:40.525 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 33.3953ms
+2025-01-07 16:21:40.526 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 26.3744ms
+2025-01-07 16:21:40.554 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2025-01-07 16:21:40.564 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2025-01-07 16:21:40.567 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2025-01-07 16:21:40.569 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 14.6895ms
+2025-01-07 16:21:40.581 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-01-07 16:21:40.589 +05:30 [INF] CORS policy execution successful.
+2025-01-07 16:21:40.595 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-01-07 16:21:40.597 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 85.4866ms
+2025-01-07 16:21:40.607 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-01-07 16:21:40.608 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 26.9918ms
+2025-01-07 16:21:40.643 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=aSvukIYE3t5igaZlIap85Q - null null
+2025-01-07 16:21:40.645 +05:30 [INF] CORS policy execution successful.
+2025-01-07 16:21:40.646 +05:30 [INF] Executing endpoint '/_blazor'
+2025-01-07 16:21:40.766 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-07 16:21:43.881 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-07 16:21:43.884 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-07 16:21:43.891 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/account/login - null null
+2025-01-07 16:21:43.901 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-01-07 16:21:45.025 +05:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-01-07 16:21:45.032 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/account/login - 302 0 null 1141.9265ms
+2025-01-07 16:21:49.939 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundarycp9lmjrDqW993dv3 359
+2025-01-07 16:21:49.952 +05:30 [INF] CORS policy execution successful.
+2025-01-07 16:21:49.954 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2025-01-07 16:21:49.970 +05:30 [INF] Executed endpoint '/_blazor'
+2025-01-07 16:21:49.972 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=aSvukIYE3t5igaZlIap85Q - 200 null null 9328.8597ms
+2025-01-07 16:21:49.972 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2025-01-07 16:21:49.977 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 38.7127ms
+2025-01-07 16:22:32.134 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/signin-oidc - application/x-www-form-urlencoded 2356
+2025-01-07 16:22:32.140 +05:30 [INF] CORS policy execution successful.
+2025-01-07 16:22:32.240 +05:30 [INF] Microsoft.IdentityModel Version: 8.3.0.0. Date 01/07/2025 10:52:32. PII logging is OFF. See https://aka.ms/IdentityModel/PII for details. 
+IDX10242: Security token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' has a valid signature.
+2025-01-07 16:22:32.248 +05:30 [INF] IDX10239: Lifetime of the token is valid.
+2025-01-07 16:22:32.251 +05:30 [INF] IDX10234: Audience Validated.Audience: 'faf367e2-4c99-47f0-abd6-3678d76851cc'
+2025-01-07 16:22:34.667 +05:30 [INF] IDX10245: Creating claims identity from the validated token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2025-01-07 16:22:34.690 +05:30 [INF] IDX21305: OpenIdConnectProtocolValidationContext.ProtocolMessage.Code is null, there is no 'code' in the OpenIdConnect Response to validate.
+2025-01-07 16:22:34.693 +05:30 [INF] IDX21310: OpenIdConnectProtocolValidationContext.ProtocolMessage.AccessToken is null, there is no 'token' in the OpenIdConnect Response to validate.
+2025-01-07 16:22:34.697 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2025-01-07 16:22:34.698 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/signin-oidc - 302 0 null 2564.4284ms
+2025-01-07 16:22:34.704 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/account/login - null null
+2025-01-07 16:22:34.715 +05:30 [INF] Executing endpoint 'EHMSWebApp.Controllers.AccountController.Login (EHMSWebApp)'
+2025-01-07 16:22:34.720 +05:30 [INF] Route matched with {action = "Login", controller = "Account", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller EHMSWebApp.Controllers.AccountController (EHMSWebApp).
+2025-01-07 16:22:34.724 +05:30 [INF] Executing ChallengeResult with authentication schemes (["OpenIdConnect"]).
+2025-01-07 16:22:34.726 +05:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2025-01-07 16:22:34.727 +05:30 [INF] Executed action EHMSWebApp.Controllers.AccountController.Login (EHMSWebApp) in 5.5339ms
+2025-01-07 16:22:34.728 +05:30 [INF] Executed endpoint 'EHMSWebApp.Controllers.AccountController.Login (EHMSWebApp)'
+2025-01-07 16:22:34.730 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/account/login - 302 0 null 26.3716ms
+2025-01-07 16:22:37.568 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/signin-oidc - application/x-www-form-urlencoded 2003
+2025-01-07 16:22:37.573 +05:30 [INF] CORS policy execution successful.
+2025-01-07 16:22:37.576 +05:30 [INF] IDX10242: Security token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' has a valid signature.
+2025-01-07 16:22:37.577 +05:30 [INF] IDX10239: Lifetime of the token is valid.
+2025-01-07 16:22:37.577 +05:30 [INF] IDX10234: Audience Validated.Audience: 'faf367e2-4c99-47f0-abd6-3678d76851cc'
+2025-01-07 16:22:37.580 +05:30 [INF] IDX10245: Creating claims identity from the validated token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2025-01-07 16:22:37.583 +05:30 [INF] IDX21305: OpenIdConnectProtocolValidationContext.ProtocolMessage.Code is null, there is no 'code' in the OpenIdConnect Response to validate.
+2025-01-07 16:22:37.584 +05:30 [INF] IDX21310: OpenIdConnectProtocolValidationContext.ProtocolMessage.AccessToken is null, there is no 'token' in the OpenIdConnect Response to validate.
+2025-01-07 16:22:37.586 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2025-01-07 16:22:37.588 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/signin-oidc - 302 0 null 20.3477ms
+2025-01-07 16:22:37.593 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/ - null null
+2025-01-07 16:22:37.600 +05:30 [INF] Executing endpoint '/_Host'
+2025-01-07 16:22:37.602 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2025-01-07 16:22:37.607 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2025-01-07 16:22:37.608 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2025-01-07 16:22:38.286 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2025-01-07 16:22:38.290 +05:30 [INF] Executing endpoint 'Blazor static files'
+2025-01-07 16:22:38.292 +05:30 [INF] Executed page /_Host in 688.0578ms
+2025-01-07 16:22:38.292 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2025-01-07 16:22:38.294 +05:30 [INF] Executed endpoint '/_Host'
+2025-01-07 16:22:38.295 +05:30 [INF] Executed endpoint 'Blazor static files'
+2025-01-07 16:22:38.296 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/ - 200 null text/html; charset=utf-8 703.9764ms
+2025-01-07 16:22:38.296 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 10.4975ms
+2025-01-07 16:22:38.307 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-07 16:22:38.311 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 4.4531ms
+2025-01-07 16:22:38.311 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2025-01-07 16:22:38.335 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/css/open-iconic/font/fonts/open-iconic.woff - null null
+2025-01-07 16:22:38.347 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2025-01-07 16:22:38.349 +05:30 [INF] CORS policy execution successful.
+2025-01-07 16:22:38.362 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.0073ms
+2025-01-07 16:22:38.362 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2025-01-07 16:22:38.362 +05:30 [INF] The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2025-01-07 16:22:38.366 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2025-01-07 16:22:38.368 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/css/open-iconic/font/fonts/open-iconic.woff - 304 null application/font-woff 35.1511ms
+2025-01-07 16:22:38.369 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 22.3713ms
+2025-01-07 16:22:38.395 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2025-01-07 16:22:38.397 +05:30 [INF] CORS policy execution successful.
+2025-01-07 16:22:38.398 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2025-01-07 16:22:38.400 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2025-01-07 16:22:38.401 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 6.0675ms
+2025-01-07 16:22:38.404 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=cCVYAAWPe-dAQ3BzLSB4dA - null null
+2025-01-07 16:22:38.406 +05:30 [INF] CORS policy execution successful.
+2025-01-07 16:22:38.407 +05:30 [INF] Executing endpoint '/_blazor'
+2025-01-07 16:22:51.599 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/swagger/index.html - null null
+2025-01-07 16:22:51.716 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/swagger/index.html - 200 null text/html;charset=utf-8 117.3936ms
+2025-01-07 16:22:51.736 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/swagger/index.css - null null
+2025-01-07 16:22:51.736 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2025-01-07 16:22:51.736 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/swagger/swagger-ui.css - null null
+2025-01-07 16:22:51.737 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/swagger/index.js - null null
+2025-01-07 16:22:51.745 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/swagger/swagger-ui-bundle.js - null null
+2025-01-07 16:22:51.737 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/swagger/swagger-ui-standalone-preset.js - null null
+2025-01-07 16:22:51.758 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2025-01-07 16:22:51.773 +05:30 [INF] The file /index.css was not modified
+2025-01-07 16:22:51.775 +05:30 [INF] The file /swagger-ui.css was not modified
+2025-01-07 16:22:51.793 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/swagger/index.css - 304 null text/css 56.8596ms
+2025-01-07 16:22:51.777 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/swagger/index.js - 200 null application/javascript;charset=utf-8 40.3396ms
+2025-01-07 16:22:51.778 +05:30 [INF] The file /swagger-ui-bundle.js was not modified
+2025-01-07 16:22:51.794 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/swagger/swagger-ui.css - 304 null text/css 58.1ms
+2025-01-07 16:22:51.806 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/swagger/swagger-ui-bundle.js - 304 null text/javascript 60.3006ms
+2025-01-07 16:22:51.772 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 35.3188ms
+2025-01-07 16:22:51.785 +05:30 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2025-01-07 16:22:51.814 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.3597ms
+2025-01-07 16:22:51.817 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 80.8316ms
+2025-01-07 16:22:51.989 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/swagger/v1/swagger.json - null null
+2025-01-07 16:22:52.007 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 18.2854ms
+2025-01-07 16:23:05.042 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/api/Department/GetAllDepartments - null null
+2025-01-07 16:23:05.056 +05:30 [INF] Executing endpoint 'EHMSWebApp.Controllers.DepartmentController.GetAllDepartments (EHMSWebApp)'
+2025-01-07 16:23:05.067 +05:30 [INF] Route matched with {action = "GetAllDepartments", controller = "Department", page = "", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllDepartments() on controller EHMSWebApp.Controllers.DepartmentController (EHMSWebApp).

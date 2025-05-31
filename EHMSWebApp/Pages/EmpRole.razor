@@ -1,0 +1,81 @@
+﻿@page "/role-rassign"
+
+@using EHMSWebApp.Interface
+@using EHMSModel
+@using Microsoft.AspNetCore.Authorization
+@inject IEmployeeService employeeService
+@inject NavigationManager Navigation
+@inject AuthenticationStateProvider authenticationStateProvider
+
+
+<h3 class="text-start">Employee Role Assign</h3>
+
+<div class="mb-3">
+    <input type="text" id="sear"class="form-control" placeholder="Search by Name or Role" @bind="searchQuery" @oninput="OnSearchChange" />
+</div>
+
+
+@if (filteredempRole != null)
+{
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th @onclick='() => SortEmployees("EmployeeName")'>Employee Name @GetSortIcon("EmployeeName")</th>
+                    <th @onclick='() => SortEmployees("Name")'>Roles @GetSortIcon("Name")</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var employee in pagedempRole)
+                {
+                    <tr>
+                        <td>@employee.EmployeeName</td>
+                        <td>@employee.Name</td>
+                        <td>
+                            <button class="btn btn-warning" @onclick="() => OpenEditDialog(employee)">Edit</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="d-flex justify-content-between">
+        <button class="btn btn-secondary" @onclick="PrevPage" disabled="@(currentPage == 1)">Previous</button>
+        <span>Page @currentPage of @totalPages</span>
+        <button class="btn btn-secondary" @onclick="NextPage" disabled="@(currentPage == totalPages)">Next</button>
+    </div>
+}
+
+@if (showAddEditDialog)
+{
+    <div class="modal fade show" style="display:block; background-color: rgba(0, 0, 0, 0.9);" tabindex="-1" aria-labelledby="employeeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="employeeModalLabel">@((isEdit ? "Edit" : "Add New") + " Employee")</h5>
+                    <button type="button" class="btn-close" @onclick="CloseDialog" aria-label="Close"></button>
+                </div>
+                <EditForm Model="@currentEmployeeRole" OnValidSubmit="SaveEmployee">
+                    <DataAnnotationsValidator />
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="employeeCode" class="form-label">Select Multiple Role</label>
+                            <select id="userRoles" class="form-control" multiple size="5" @onchange="OnSelectionChanged">
+                                @foreach (var role in allRole)
+                                {
+                                    <option value="@role.RoleId">@role.Name</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" @onclick="CloseDialog">Cancel</button>
+                        <button type="submit" class="btn btn-success">Save</button>
+                    </div>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+}

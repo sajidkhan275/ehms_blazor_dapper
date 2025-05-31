@@ -1,0 +1,137 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EHMSWebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EHMSWebApp.5bdkuzzfg0.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\desktop.ini",
+      "PackagePath": "staticwebassets\\logs\\desktop.ini"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20241230.txt",
+      "PackagePath": "staticwebassets\\logs\\log20241230.txt"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20241231.txt",
+      "PackagePath": "staticwebassets\\logs\\log20241231.txt"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250101.txt",
+      "PackagePath": "staticwebassets\\logs\\log20250101.txt"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250102.txt",
+      "PackagePath": "staticwebassets\\logs\\log20250102.txt"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250103.txt",
+      "PackagePath": "staticwebassets\\logs\\log20250103.txt"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250107.txt",
+      "PackagePath": "staticwebassets\\logs\\log20250107.txt"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250109.txt",
+      "PackagePath": "staticwebassets\\logs\\log20250109.txt"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\19f59acb-14c4-4d4b-a9a6-8d0ea9e56b8d5.pdf example_2009.pdf.enc",
+      "PackagePath": "staticwebassets\\uploads\\19f59acb-14c4-4d4b-a9a6-8d0ea9e56b8d5.pdf example_2009.pdf.enc"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\1d9edfac-e7cd-4a44-ba89-2d91c3a818b5Bench Policy.pdf.enc",
+      "PackagePath": "staticwebassets\\uploads\\1d9edfac-e7cd-4a44-ba89-2d91c3a818b5Bench Policy.pdf.enc"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\6e1378c7-99c7-438f-8578-7c375b500a5fBench Policy.pdf.enc",
+      "PackagePath": "staticwebassets\\uploads\\6e1378c7-99c7-438f-8578-7c375b500a5fBench Policy.pdf.enc"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\dc1436ca-234d-46e0-961f-606fd5bdda39dummy.pdf.enc",
+      "PackagePath": "staticwebassets\\uploads\\dc1436ca-234d-46e0-961f-606fd5bdda39dummy.pdf.enc"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\f86dd138-a43f-4546-9405-0295e84d5329Bench Policy.pdf.enc",
+      "PackagePath": "staticwebassets\\uploads\\f86dd138-a43f-4546-9405-0295e84d5329Bench Policy.pdf.enc"
+    },
+    {
+      "Id": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\fa62de5b-ae13-4a36-86dd-6acbc8a4001adummy.pdf.enc",
+      "PackagePath": "staticwebassets\\uploads\\fa62de5b-ae13-4a36-86dd-6acbc8a4001adummy.pdf.enc"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EHMSWebApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EHMSWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.EHMSWebApp.props",
+      "PackagePath": "build\\EHMSWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EHMSWebApp.props",
+      "PackagePath": "buildMultiTargeting\\EHMSWebApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.EHMSWebApp.props",
+      "PackagePath": "buildTransitive\\EHMSWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,467 @@
+[
+  {
+    "ContainingType": "EHMSWebApp.Controllers.DepartmentController",
+    "Method": "CreateDepartments",
+    "RelativePath": "api/Department/CreateDepartments",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentDetails",
+        "Type": "EHMSModel.DepartmentDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.DepartmentController",
+    "Method": "DeleteDepartments",
+    "RelativePath": "api/Department/DeleteDepartments",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.DepartmentController",
+    "Method": "GetAllDepartments",
+    "RelativePath": "api/Department/GetAllDepartments",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.DepartmentController",
+    "Method": "UpdateDepartments",
+    "RelativePath": "api/Department/UpdateDepartments",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentDetails",
+        "Type": "EHMSModel.DepartmentDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.EmployeeController",
+    "Method": "AddRoleAsync",
+    "RelativePath": "api/employee/AddRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "EHMSModel.EmployeeRole",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.EmployeeController",
+    "Method": "CreateEmployee",
+    "RelativePath": "api/employee/CreateEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employee",
+        "Type": "EHMSModel.EmployeeDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.EmployeeController",
+    "Method": "DeleteEmployee",
+    "RelativePath": "api/employee/DeleteEmployee",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.EmployeeController",
+    "Method": "DeletRoleEmpWiseAsync",
+    "RelativePath": "api/employee/DeletRoleEmpWise",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "role",
+        "Type": "EHMSModel.EmployeeRole",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.EmployeeController",
+    "Method": "GetAllEmployees",
+    "RelativePath": "api/employee/GetAllEmployees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.EmployeeController",
+    "Method": "GetAllRole",
+    "RelativePath": "api/employee/GetAllRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.EmployeeController",
+    "Method": "GetEmpRole",
+    "RelativePath": "api/employee/GetEmpRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.EmployeeController",
+    "Method": "GetRoleEmpWiseAsync",
+    "RelativePath": "api/employee/GetRoleEmpWise",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entraId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.EmployeeController",
+    "Method": "UpdateEmployee",
+    "RelativePath": "api/employee/UpdateEmployee",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employee",
+        "Type": "EHMSModel.EmployeeDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.EmployeeHealthInfoController",
+    "Method": "CreateEmployeeHealthInfo",
+    "RelativePath": "api/EmployeeHealthInfo/CreateEmployeeHealthInfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmployeeHealthInfoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "EmpId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "BloodGroup",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MedicalReportFileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RecentMedicalReportPath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Disability",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "EmployeeName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.EmployeeHealthInfoController",
+    "Method": "DeleteEmployeeHealthInfo",
+    "RelativePath": "api/EmployeeHealthInfo/DeleteEmployeeHealthInfo",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "medicalReportFileName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.EmployeeHealthInfoController",
+    "Method": "DownloadMedicalReport",
+    "RelativePath": "api/EmployeeHealthInfo/DownloadMedicalReport/{fileName}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.EmployeeHealthInfoController",
+    "Method": "GetAllEmployeeHealthInfo",
+    "RelativePath": "api/EmployeeHealthInfo/GetAllEmployeeHealthInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.EmployeeHealthInfoController",
+    "Method": "UpdateEmployeeHealthInfo",
+    "RelativePath": "api/EmployeeHealthInfo/UpdateEmployeeHealthInfo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmployeeHealthInfoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "EmpId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "BloodGroup",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MedicalReportFileName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "RecentMedicalReportPath",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Disability",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "EmployeeName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.EmployeePhysicalFitnessController",
+    "Method": "CreateEmployeePhysicalFitness",
+    "RelativePath": "api/EmployeePhysicalFitness/CreateEmployeePhysicalFitness",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "physicalFitness",
+        "Type": "EHMSModel.EmployeePhysicalFitness",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.EmployeePhysicalFitnessController",
+    "Method": "DeleteEmployeePhysicalFitness",
+    "RelativePath": "api/EmployeePhysicalFitness/DeleteEmployeePhysicalFitness",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.EmployeePhysicalFitnessController",
+    "Method": "GetAllEmployeePhysicalFitness",
+    "RelativePath": "api/EmployeePhysicalFitness/GetAllEmployeePhysicalFitness",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.EmployeePhysicalFitnessController",
+    "Method": "UpdateEmployeePhysicalFitness",
+    "RelativePath": "api/EmployeePhysicalFitness/UpdateEmployeePhysicalFitness",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "physicalFitness",
+        "Type": "EHMSModel.EmployeePhysicalFitness",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.RequestForHelpController",
+    "Method": "CreateRequestForHelpAsync",
+    "RelativePath": "api/RequestForHelp/CreateRequestForHelpAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestForHelpService",
+        "Type": "EHMSModel.RequestForHelp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.RequestForHelpController",
+    "Method": "DeleteRequestForHelpAsync",
+    "RelativePath": "api/RequestForHelp/DeleteRequestForHelpAsync",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestForHelpId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.RequestForHelpController",
+    "Method": "GetRequestsByEmployeeAsync",
+    "RelativePath": "api/RequestForHelp/GetRequestsByEmployeeAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.RequestForHelpController",
+    "Method": "GetRequestsByEmployeeIdAsync",
+    "RelativePath": "api/RequestForHelp/GetRequestsByEmployeeIdAsync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EHMSWebApp.Controllers.RequestForHelpController",
+    "Method": "UpdateHRRequestAsync",
+    "RelativePath": "api/RequestForHelp/UpdateHRRequestAsync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestForHelpService",
+        "Type": "EHMSModel.RequestForHelp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

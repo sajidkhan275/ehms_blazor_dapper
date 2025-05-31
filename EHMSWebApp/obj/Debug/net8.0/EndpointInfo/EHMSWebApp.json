@@ -1,0 +1,938 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "EHMSWebApp",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Department/GetAllDepartments": {
+      "get": {
+        "tags": [
+          "Department"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Department/CreateDepartments": {
+      "post": {
+        "tags": [
+          "Department"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DepartmentDetails"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DepartmentDetails"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DepartmentDetails"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Department/UpdateDepartments": {
+      "put": {
+        "tags": [
+          "Department"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DepartmentDetails"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DepartmentDetails"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DepartmentDetails"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Department/DeleteDepartments": {
+      "delete": {
+        "tags": [
+          "Department"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/employee/GetAllEmployees": {
+      "get": {
+        "tags": [
+          "Employee"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/employee/CreateEmployee": {
+      "post": {
+        "tags": [
+          "Employee"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeDetails"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeDetails"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeDetails"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/employee/UpdateEmployee": {
+      "put": {
+        "tags": [
+          "Employee"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeDetails"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeDetails"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeDetails"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/employee/DeleteEmployee": {
+      "delete": {
+        "tags": [
+          "Employee"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/employee/AddRole": {
+      "post": {
+        "tags": [
+          "Employee"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeRole"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeRole"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeRole"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/employee/GetRoleEmpWise": {
+      "get": {
+        "tags": [
+          "Employee"
+        ],
+        "parameters": [
+          {
+            "name": "entraId",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/employee/DeletRoleEmpWise": {
+      "delete": {
+        "tags": [
+          "Employee"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeRole"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeRole"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeeRole"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/employee/GetEmpRole": {
+      "get": {
+        "tags": [
+          "Employee"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/employee/GetAllRole": {
+      "get": {
+        "tags": [
+          "Employee"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EmployeeHealthInfo/GetAllEmployeeHealthInfo": {
+      "get": {
+        "tags": [
+          "EmployeeHealthInfo"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EmployeeHealthInfo/CreateEmployeeHealthInfo": {
+      "post": {
+        "tags": [
+          "EmployeeHealthInfo"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "BloodGroup"
+                ],
+                "type": "object",
+                "properties": {
+                  "EmployeeHealthInfoId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "EmpId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "BloodGroup": {
+                    "type": "string"
+                  },
+                  "MedicalReportFileName": {
+                    "type": "string"
+                  },
+                  "RecentMedicalReportPath": {
+                    "type": "string"
+                  },
+                  "Disability": {
+                    "type": "boolean"
+                  },
+                  "EmployeeName": {
+                    "type": "string"
+                  },
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "EmployeeHealthInfoId": {
+                  "style": "form"
+                },
+                "EmpId": {
+                  "style": "form"
+                },
+                "BloodGroup": {
+                  "style": "form"
+                },
+                "MedicalReportFileName": {
+                  "style": "form"
+                },
+                "RecentMedicalReportPath": {
+                  "style": "form"
+                },
+                "Disability": {
+                  "style": "form"
+                },
+                "EmployeeName": {
+                  "style": "form"
+                },
+                "file": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EmployeeHealthInfo/UpdateEmployeeHealthInfo": {
+      "put": {
+        "tags": [
+          "EmployeeHealthInfo"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "BloodGroup"
+                ],
+                "type": "object",
+                "properties": {
+                  "EmployeeHealthInfoId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "EmpId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "BloodGroup": {
+                    "type": "string"
+                  },
+                  "MedicalReportFileName": {
+                    "type": "string"
+                  },
+                  "RecentMedicalReportPath": {
+                    "type": "string"
+                  },
+                  "Disability": {
+                    "type": "boolean"
+                  },
+                  "EmployeeName": {
+                    "type": "string"
+                  },
+                  "file": {
+                    "type": "string",
+                    "format": "binary"
+                  }
+                }
+              },
+              "encoding": {
+                "EmployeeHealthInfoId": {
+                  "style": "form"
+                },
+                "EmpId": {
+                  "style": "form"
+                },
+                "BloodGroup": {
+                  "style": "form"
+                },
+                "MedicalReportFileName": {
+                  "style": "form"
+                },
+                "RecentMedicalReportPath": {
+                  "style": "form"
+                },
+                "Disability": {
+                  "style": "form"
+                },
+                "EmployeeName": {
+                  "style": "form"
+                },
+                "file": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EmployeeHealthInfo/DeleteEmployeeHealthInfo": {
+      "delete": {
+        "tags": [
+          "EmployeeHealthInfo"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "medicalReportFileName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EmployeeHealthInfo/DownloadMedicalReport/{fileName}": {
+      "get": {
+        "tags": [
+          "EmployeeHealthInfo"
+        ],
+        "parameters": [
+          {
+            "name": "fileName",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EmployeePhysicalFitness/GetAllEmployeePhysicalFitness": {
+      "get": {
+        "tags": [
+          "EmployeePhysicalFitness"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EmployeePhysicalFitness/CreateEmployeePhysicalFitness": {
+      "post": {
+        "tags": [
+          "EmployeePhysicalFitness"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeePhysicalFitness"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeePhysicalFitness"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeePhysicalFitness"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EmployeePhysicalFitness/UpdateEmployeePhysicalFitness": {
+      "put": {
+        "tags": [
+          "EmployeePhysicalFitness"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeePhysicalFitness"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeePhysicalFitness"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EmployeePhysicalFitness"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/EmployeePhysicalFitness/DeleteEmployeePhysicalFitness": {
+      "delete": {
+        "tags": [
+          "EmployeePhysicalFitness"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RequestForHelp/CreateRequestForHelpAsync": {
+      "post": {
+        "tags": [
+          "RequestForHelp"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestForHelp"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestForHelp"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestForHelp"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RequestForHelp/GetRequestsByEmployeeIdAsync": {
+      "get": {
+        "tags": [
+          "RequestForHelp"
+        ],
+        "parameters": [
+          {
+            "name": "empId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RequestForHelp/GetRequestsByEmployeeAsync": {
+      "get": {
+        "tags": [
+          "RequestForHelp"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RequestForHelp/UpdateHRRequestAsync": {
+      "post": {
+        "tags": [
+          "RequestForHelp"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestForHelp"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestForHelp"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RequestForHelp"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/RequestForHelp/DeleteRequestForHelpAsync": {
+      "delete": {
+        "tags": [
+          "RequestForHelp"
+        ],
+        "parameters": [
+          {
+            "name": "requestForHelpId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DepartmentDetails": {
+        "required": [
+          "departmentName"
+        ],
+        "type": "object",
+        "properties": {
+          "departmentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "departmentName": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "updatedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmployeeDetails": {
+        "required": [
+          "departmentId",
+          "employeeCode",
+          "jobTitle"
+        ],
+        "type": "object",
+        "properties": {
+          "empId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "employeeCode": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "employeeName": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "departmentId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "departmentName": {
+            "type": "string",
+            "nullable": true
+          },
+          "jobTitle": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "azureEntraId": {
+            "type": "string",
+            "nullable": true
+          },
+          "roleId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmployeePhysicalFitness": {
+        "required": [
+          "height",
+          "weight"
+        ],
+        "type": "object",
+        "properties": {
+          "employeePhysicalFitnessId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "empId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "weight": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "number",
+            "format": "double"
+          },
+          "height": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "number",
+            "format": "double"
+          },
+          "bmi": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "employeeName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmployeeRole": {
+        "type": "object",
+        "properties": {
+          "roleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "empRoleId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "empId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "employeeName": {
+            "type": "string",
+            "nullable": true
+          },
+          "rolesId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RequestForHelp": {
+        "required": [
+          "requestDetails"
+        ],
+        "type": "object",
+        "properties": {
+          "requestForHelpId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "empId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "requestDetails": {
+            "maxLength": 1000,
+            "minLength": 0,
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "createdAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "respondedAt": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "respondedStatus": {
+            "type": "string",
+            "nullable": true
+          },
+          "employeeName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

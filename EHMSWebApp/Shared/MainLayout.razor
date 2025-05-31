@@ -1,0 +1,59 @@
+﻿@using Microsoft.AspNetCore.Authentication
+@using System.Security.Claims
+@using EHMSWebApp.Utility
+@inherits LayoutComponentBase
+@inject NavigationManager navigation
+@inject AuthenticationStateProvider authenticationStateProvider
+@inject IHttpContextAccessor httpContextAccessor
+
+
+<PageTitle>EHMSWebApp</PageTitle>
+
+<div class="page">
+    <CascadingAuthenticationState>
+        <AuthorizeView>
+            <Authorized>
+                <div class="sidebar">
+                    <NavMenu />
+                </div>
+                <main>
+                    <div class="top-row px-4">
+
+                        @{
+                            var roles = context.User.Claims.Where(c => c.Type == ClaimTypes.Role).Select(c => c.Value).ToList();
+                            if (roles.Count == 0)
+                            {
+                                navigation.NavigateTo("/account/logout", forceLoad: true);
+                            }
+                            var RoleId = Convert.ToInt32(roles[0]);
+                            <p>Role:  @Enum.GetName(typeof(UserRole), RoleId)</p>
+                        }
+                        <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+                        <p> Welcome, @context?.User?.Identity?.Name</p>
+                        <button class="btn btn-primary" @onclick="Logout">Logout</button>
+                    </div>
+                    <article class="content px-4">
+                        @Body
+                    </article>
+                </main>
+            </Authorized>
+            <NotAuthorized>
+                <div class="sidebar">
+
+                </div>
+                <main>
+                    <div class="top-row px-4">
+                        <button class="btn btn-primary" @onclick="Login">Login</button>
+                    </div>
+                    <article class="content px-4">
+                        <p>EHMSWebApp Login Page</p>
+
+                        Please login with valid user & role
+                    </article>
+                </main>
+            </NotAuthorized>
+        </AuthorizeView>
+    </CascadingAuthenticationState>
+</div>
+
+

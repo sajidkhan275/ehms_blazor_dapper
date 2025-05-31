@@ -1,0 +1,67 @@
+﻿@using EHMSWebApp.Interface
+@using EHMSModel
+@inject IEmployeeService employeeService
+@inject IHttpContextAccessor httpContextAccessor
+@inject AuthenticationStateProvider authenticationStateProvider
+
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">EHMSWebApp</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+      @*   @if (UserRoles.Any(role => role == (int)UserRole.Admin))
+        { *@
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="role-rassign">
+                <span class="oi oi-plus" aria-hidden="true"></span>Role Assign
+            </NavLink>
+        </div>
+        @* } *@
+        @if (UserRoles.Any(role => role == (int)UserRole.Admin))
+        {
+           
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="department">
+                    <span class="oi oi-plus" aria-hidden="true"></span>Department
+                </NavLink>
+            </div>
+        }
+        @if (UserRoles.Any(role => role == (int)UserRole.Admin || role == (int)UserRole.HR))
+        {
+            <div class="nav-item px-3">
+                <NavLink class="nav-link" href="employee">
+                    <span class="oi oi-plus" aria-hidden="true"></span> Employee
+                </NavLink>
+            </div>
+        }
+     
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="physical-fitness">
+                <span class="oi oi-plus" aria-hidden="true"></span> Physical Fitness
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="health-info">
+                <span class="oi oi-plus" aria-hidden="true"></span> Health Info
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="request-help-employee">
+                <span class="oi oi-plus" aria-hidden="true"></span> Request For Help
+            </NavLink>
+        </div>
+      
+    </nav>
+</div>
+

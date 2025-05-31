@@ -1,0 +1,20 @@
+﻿@if (Show)
+{
+    <div class="modal fade show" style="display:block; background-color: rgba(0, 0, 0, 0.9);" tabindex="-1" aria-labelledby="deleteConfirmationLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="deleteConfirmationLabel">@Title</h5>
+                    <button type="button" class="btn-close" @onclick="Cancel" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    @Message
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" @onclick="Cancel">Cancel</button>
+                    <button type="button" class="btn btn-danger" @onclick="ConfirmDelete">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+}

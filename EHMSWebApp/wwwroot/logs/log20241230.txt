@@ -1,0 +1,1305 @@
+2024-12-30 15:53:13.139 +05:30 [INF] User profile is available. Using 'C:\Users\mohammed.sajid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-30 15:53:13.805 +05:30 [INF] Now listening on: https://localhost:5163
+2024-12-30 15:53:13.862 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-30 15:53:13.863 +05:30 [INF] Hosting environment: Development
+2024-12-30 15:53:13.864 +05:30 [INF] Content root path: C:\Sk\EHMS\EHMSWebApp
+2024-12-30 15:53:14.788 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/ - null null
+2024-12-30 15:53:15.108 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 15:53:15.129 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 15:53:15.138 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 15:53:15.141 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 15:53:15.205 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-30 15:53:15.275 +05:30 [INF] Executed page /_Host in 141.8092ms
+2024-12-30 15:53:15.278 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 15:53:15.288 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/ - 200 null text/html; charset=utf-8 503.8316ms
+2024-12-30 15:53:15.291 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/EHMSWebApp.styles.css - null null
+2024-12-30 15:53:15.291 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 15:53:15.291 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/css/site.css - null null
+2024-12-30 15:53:15.291 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/css/bootstrap/bootstrap.min.css - null null
+2024-12-30 15:53:15.299 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 15:53:15.309 +05:30 [INF] The file /EHMSWebApp.styles.css was not modified
+2024-12-30 15:53:15.309 +05:30 [INF] The file /css/site.css was not modified
+2024-12-30 15:53:15.309 +05:30 [INF] The file /css/bootstrap/bootstrap.min.css was not modified
+2024-12-30 15:53:15.336 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/EHMSWebApp.styles.css - 304 null text/css 44.8135ms
+2024-12-30 15:53:15.336 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/css/site.css - 304 null text/css 44.8135ms
+2024-12-30 15:53:15.337 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/css/bootstrap/bootstrap.min.css - 304 null text/css 46.2234ms
+2024-12-30 15:53:15.344 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 15:53:15.339 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 48.6049ms
+2024-12-30 15:53:15.346 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/css/open-iconic/font/css/open-iconic-bootstrap.min.css - null null
+2024-12-30 15:53:15.350 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 15:53:15.353 +05:30 [INF] The file /css/open-iconic/font/css/open-iconic-bootstrap.min.css was not modified
+2024-12-30 15:53:15.354 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 15:53:15.354 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/css/open-iconic/font/css/open-iconic-bootstrap.min.css - 304 null text/css 8.1292ms
+2024-12-30 15:53:15.355 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 56.9921ms
+2024-12-30 15:53:15.363 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 15:53:15.382 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 15:53:15.389 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 15:53:15.393 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 15:53:15.398 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 16.1959ms
+2024-12-30 15:53:15.407 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 15:53:15.414 +05:30 [INF] CORS policy execution successful.
+2024-12-30 15:53:15.418 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 15:53:15.427 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 15:53:15.429 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 21.6715ms
+2024-12-30 15:53:15.434 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=zeIfLDVuf6sfPZXzswxrbA - null null
+2024-12-30 15:53:15.439 +05:30 [INF] CORS policy execution successful.
+2024-12-30 15:53:15.440 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 15:53:15.440 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 80.5964ms
+2024-12-30 15:53:15.580 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-30 15:53:21.867 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-30 15:53:21.869 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-30 15:53:21.880 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/account/login - null null
+2024-12-30 15:53:21.891 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-30 15:53:23.947 +05:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2024-12-30 15:53:23.951 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/account/login - 302 0 null 2070.9329ms
+2024-12-30 15:53:24.503 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryzSjU6X0F62pDBko3 359
+2024-12-30 15:53:24.508 +05:30 [INF] CORS policy execution successful.
+2024-12-30 15:53:24.509 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 15:53:24.518 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 15:53:24.523 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=zeIfLDVuf6sfPZXzswxrbA - 200 null null 9088.7877ms
+2024-12-30 15:53:24.535 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 15:53:24.537 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 34.5052ms
+2024-12-30 15:53:33.879 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/signin-oidc - application/x-www-form-urlencoded 2169
+2024-12-30 15:53:33.888 +05:30 [INF] CORS policy execution successful.
+2024-12-30 15:53:33.958 +05:30 [INF] Microsoft.IdentityModel Version: 8.3.0.0. Date 12/30/2024 10:23:33. PII logging is OFF. See https://aka.ms/IdentityModel/PII for details. 
+IDX10242: Security token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' has a valid signature.
+2024-12-30 15:53:33.962 +05:30 [INF] IDX10239: Lifetime of the token is valid.
+2024-12-30 15:53:33.965 +05:30 [INF] IDX10234: Audience Validated.Audience: 'faf367e2-4c99-47f0-abd6-3678d76851cc'
+2024-12-30 15:53:35.381 +05:30 [INF] IDX10245: Creating claims identity from the validated token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2024-12-30 15:53:35.412 +05:30 [INF] IDX21305: OpenIdConnectProtocolValidationContext.ProtocolMessage.Code is null, there is no 'code' in the OpenIdConnect Response to validate.
+2024-12-30 15:53:35.414 +05:30 [INF] IDX21310: OpenIdConnectProtocolValidationContext.ProtocolMessage.AccessToken is null, there is no 'token' in the OpenIdConnect Response to validate.
+2024-12-30 15:53:35.420 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2024-12-30 15:53:35.421 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/signin-oidc - 302 0 null 1542.4669ms
+2024-12-30 15:53:35.425 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/account/login - null null
+2024-12-30 15:53:35.435 +05:30 [INF] Executing endpoint 'EHMSWebApp.Controllers.AccountController.Login (EHMSWebApp)'
+2024-12-30 15:53:35.441 +05:30 [INF] Route matched with {action = "Login", controller = "Account", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller EHMSWebApp.Controllers.AccountController (EHMSWebApp).
+2024-12-30 15:53:35.445 +05:30 [INF] Executing ChallengeResult with authentication schemes (["OpenIdConnect"]).
+2024-12-30 15:53:35.451 +05:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2024-12-30 15:53:35.453 +05:30 [INF] Executed action EHMSWebApp.Controllers.AccountController.Login (EHMSWebApp) in 9.8869ms
+2024-12-30 15:53:35.454 +05:30 [INF] Executed endpoint 'EHMSWebApp.Controllers.AccountController.Login (EHMSWebApp)'
+2024-12-30 15:53:35.454 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/account/login - 302 0 null 29.9841ms
+2024-12-30 15:53:40.351 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/signin-oidc - application/x-www-form-urlencoded 2003
+2024-12-30 15:53:40.358 +05:30 [INF] CORS policy execution successful.
+2024-12-30 15:53:40.361 +05:30 [INF] IDX10242: Security token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' has a valid signature.
+2024-12-30 15:53:40.363 +05:30 [INF] IDX10239: Lifetime of the token is valid.
+2024-12-30 15:53:40.365 +05:30 [INF] IDX10234: Audience Validated.Audience: 'faf367e2-4c99-47f0-abd6-3678d76851cc'
+2024-12-30 15:53:40.367 +05:30 [INF] IDX10245: Creating claims identity from the validated token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2024-12-30 15:53:40.369 +05:30 [INF] IDX21305: OpenIdConnectProtocolValidationContext.ProtocolMessage.Code is null, there is no 'code' in the OpenIdConnect Response to validate.
+2024-12-30 15:53:40.371 +05:30 [INF] IDX21310: OpenIdConnectProtocolValidationContext.ProtocolMessage.AccessToken is null, there is no 'token' in the OpenIdConnect Response to validate.
+2024-12-30 15:53:40.373 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2024-12-30 15:53:40.374 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/signin-oidc - 302 0 null 23.0191ms
+2024-12-30 15:53:40.377 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/ - null null
+2024-12-30 15:53:40.381 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 15:53:40.382 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 15:53:40.389 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 15:53:40.391 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 15:53:40.910 +05:30 [INF] Executed page /_Host in 526.7188ms
+2024-12-30 15:53:40.912 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 15:53:40.914 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/ - 200 null text/html; charset=utf-8 537.3648ms
+2024-12-30 15:53:40.925 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 15:53:40.926 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 15:53:40.930 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 5.1096ms
+2024-12-30 15:53:40.933 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 15:53:40.935 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 15:53:40.937 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 15:53:40.940 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 15:53:40.941 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 14.4512ms
+2024-12-30 15:53:40.954 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.1028ms
+2024-12-30 15:53:40.960 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/css/open-iconic/font/fonts/open-iconic.woff - null null
+2024-12-30 15:53:40.964 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 15:53:40.965 +05:30 [INF] CORS policy execution successful.
+2024-12-30 15:53:40.969 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 15:53:40.969 +05:30 [INF] The file /css/open-iconic/font/fonts/open-iconic.woff was not modified
+2024-12-30 15:53:40.971 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 15:53:40.973 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/css/open-iconic/font/fonts/open-iconic.woff - 304 null application/font-woff 13.1506ms
+2024-12-30 15:53:40.974 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 11.1862ms
+2024-12-30 15:53:40.983 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 15:53:40.986 +05:30 [INF] CORS policy execution successful.
+2024-12-30 15:53:40.987 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 15:53:40.990 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 15:53:40.992 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 9.556ms
+2024-12-30 15:53:41.000 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=J4ZfGxMSrfTxdVKDhKylsQ - null null
+2024-12-30 15:53:41.003 +05:30 [INF] CORS policy execution successful.
+2024-12-30 15:53:41.004 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 16:13:19.014 +05:30 [INF] User profile is available. Using 'C:\Users\mohammed.sajid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-30 16:13:19.518 +05:30 [INF] Now listening on: https://localhost:5163
+2024-12-30 16:13:19.590 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-30 16:13:19.607 +05:30 [INF] Hosting environment: Development
+2024-12-30 16:13:19.611 +05:30 [INF] Content root path: C:\Sk\EHMS\EHMSWebApp
+2024-12-30 16:13:20.448 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/ - null null
+2024-12-30 16:13:21.097 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 16:13:21.106 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 16:13:21.115 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 16:13:21.117 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 16:13:21.786 +05:30 [INF] Executed page /_Host in 675.6862ms
+2024-12-30 16:13:21.788 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 16:13:21.793 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 16:13:21.797 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 16:13:21.801 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/ - 200 null text/html; charset=utf-8 1360.2321ms
+2024-12-30 16:13:21.817 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 16:13:21.810 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 16:13:21.826 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 29.4347ms
+2024-12-30 16:13:21.832 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 16:13:21.834 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 16:13:21.840 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 47.0056ms
+2024-12-30 16:13:21.859 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 16:13:21.866 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 16:13:21.870 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 16:13:21.871 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 12.392ms
+2024-12-30 16:13:21.877 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 66.7705ms
+2024-12-30 16:13:21.879 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 16:13:21.884 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:13:21.886 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 16:13:21.896 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 16:13:21.898 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 18.3103ms
+2024-12-30 16:13:21.901 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=cKIMWoRp8sj1eXA8P3d-xw - null null
+2024-12-30 16:13:21.903 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:13:21.904 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 16:14:02.318 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 16:14:02.327 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 16:14:02.330 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 16:14:02.332 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 16:14:02.333 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 16:14:02.361 +05:30 [INF] Executed page /_Host in 30.3079ms
+2024-12-30 16:14:02.362 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 16:14:02.363 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 45.5893ms
+2024-12-30 16:14:02.368 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryBgSdxMNtSjgNpBco 359
+2024-12-30 16:14:02.370 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:14:02.372 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 16:14:02.381 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 16:14:02.386 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 16:14:02.386 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 16:14:02.386 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 16:14:02.387 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=cKIMWoRp8sj1eXA8P3d-xw - 200 null null 40486.3037ms
+2024-12-30 16:14:02.393 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 6.0035ms
+2024-12-30 16:14:02.393 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 16:14:02.387 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 16:14:02.401 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 16:14:02.406 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 16:14:02.409 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 41.639ms
+2024-12-30 16:14:02.410 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 29.2115ms
+2024-12-30 16:14:02.416 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 16:14:02.420 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 16:14:02.424 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 16:14:02.427 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 10.6203ms
+2024-12-30 16:14:02.427 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.4067ms
+2024-12-30 16:14:02.445 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 16:14:02.448 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:14:02.450 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 16:14:02.451 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 16:14:02.452 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 8.3464ms
+2024-12-30 16:14:02.456 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=906IjqdcSeBEpprffZ4-CQ - null null
+2024-12-30 16:14:02.458 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:14:02.459 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 16:14:13.601 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 16:14:13.609 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 16:14:13.611 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 16:14:13.612 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 16:14:13.615 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 16:14:13.624 +05:30 [INF] Executed page /_Host in 12.0218ms
+2024-12-30 16:14:13.625 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 16:14:13.626 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 24.6372ms
+2024-12-30 16:14:13.644 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundarybe27XMYOsINrsaC7 359
+2024-12-30 16:14:13.647 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 16:14:13.645 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 16:14:13.648 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 16:14:13.648 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 16:14:13.652 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=906IjqdcSeBEpprffZ4-CQ - 200 null null 11196.2704ms
+2024-12-30 16:14:13.655 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 16:14:13.650 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:14:13.658 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 10.035ms
+2024-12-30 16:14:13.661 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 16:14:13.662 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 16:14:13.665 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 16:14:13.669 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 24.8152ms
+2024-12-30 16:14:13.671 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 16:14:13.675 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 30.618ms
+2024-12-30 16:14:13.675 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.1097ms
+2024-12-30 16:14:13.680 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 16:14:13.683 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 16:14:13.684 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 16:14:13.687 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 7.2665ms
+2024-12-30 16:14:13.698 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 16:14:13.702 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:14:13.703 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 16:14:13.705 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 16:14:13.706 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 7.3787ms
+2024-12-30 16:14:13.708 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=EStvOMvK2gVQikfH7XTeXg - null null
+2024-12-30 16:14:13.711 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:14:13.712 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 16:14:23.287 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 16:14:23.297 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 16:14:23.298 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 16:14:23.303 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 16:14:23.304 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 16:14:23.319 +05:30 [INF] Executed page /_Host in 16.388ms
+2024-12-30 16:14:23.320 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 16:14:23.321 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 35.0636ms
+2024-12-30 16:14:23.327 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundary3MFHM8jpf014H2LP 359
+2024-12-30 16:14:23.331 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:14:23.332 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 16:14:23.332 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 16:14:23.333 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 16:14:23.334 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=EStvOMvK2gVQikfH7XTeXg - 200 null null 9625.545ms
+2024-12-30 16:14:23.335 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 8.8232ms
+2024-12-30 16:14:23.336 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 16:14:23.340 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 16:14:23.341 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 16:14:23.343 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 16:14:23.345 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 4.6495ms
+2024-12-30 16:14:23.347 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 16:14:23.353 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 16:14:23.354 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 18.2472ms
+2024-12-30 16:14:23.359 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 16:14:23.364 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.1333ms
+2024-12-30 16:14:23.365 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 16:14:23.367 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 16:14:23.368 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 9.5665ms
+2024-12-30 16:14:23.383 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 16:14:23.385 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:14:23.386 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 16:14:23.387 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 16:14:23.388 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 5.1385ms
+2024-12-30 16:14:23.391 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=6h_xSy5ETQkzplLRqa4Nyg - null null
+2024-12-30 16:14:23.392 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:14:23.393 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 16:14:27.739 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 16:14:27.748 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 16:14:27.750 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 16:14:27.752 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 16:14:27.753 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 16:14:27.760 +05:30 [INF] Executed page /_Host in 8.7644ms
+2024-12-30 16:14:27.761 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 16:14:27.762 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 23.3154ms
+2024-12-30 16:14:27.770 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryaR25DmKJfTpIN3pA 359
+2024-12-30 16:14:27.772 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 16:14:27.774 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:14:27.775 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=6h_xSy5ETQkzplLRqa4Nyg - 200 null null 4384.5767ms
+2024-12-30 16:14:27.776 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 16:14:27.777 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 16:14:27.780 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 16:14:27.782 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 16:14:27.782 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 16:14:27.783 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 16:14:27.783 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 12.5509ms
+2024-12-30 16:14:27.789 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 7.723ms
+2024-12-30 16:14:27.791 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 16:14:27.798 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 16:14:27.800 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 22.9662ms
+2024-12-30 16:14:27.804 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.2291ms
+2024-12-30 16:14:27.810 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 16:14:27.813 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 16:14:27.814 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 16:14:27.815 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 5.0139ms
+2024-12-30 16:14:27.829 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 16:14:27.832 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:14:27.834 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 16:14:27.835 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 16:14:27.836 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 6.9415ms
+2024-12-30 16:14:27.840 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=zA2kXrwPtapnAPp6gqe1PA - null null
+2024-12-30 16:14:27.842 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:14:27.842 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 16:14:44.077 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 16:14:44.082 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 16:14:44.083 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 16:14:44.084 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 16:14:44.084 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 16:14:44.092 +05:30 [INF] Executed page /_Host in 8.0992ms
+2024-12-30 16:14:44.093 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 16:14:44.094 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 17.1275ms
+2024-12-30 16:14:44.099 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryZgA9niwK2YEWLOe4 359
+2024-12-30 16:14:44.101 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 16:14:44.102 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:14:44.103 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=zA2kXrwPtapnAPp6gqe1PA - 200 null null 16262.9919ms
+2024-12-30 16:14:44.104 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 16:14:44.106 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 16:14:44.107 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 8.6672ms
+2024-12-30 16:14:44.107 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 16:14:44.110 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 16:14:44.110 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 16:14:44.111 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 16:14:44.113 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 2.7547ms
+2024-12-30 16:14:44.116 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 16:14:44.122 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 16:14:44.123 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 16.0057ms
+2024-12-30 16:14:44.127 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 16:14:44.131 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 16:14:44.132 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.5899ms
+2024-12-30 16:14:44.132 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 16:14:44.135 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 8.8076ms
+2024-12-30 16:14:44.143 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 16:14:44.145 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:14:44.146 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 16:14:44.147 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 16:14:44.148 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 4.9064ms
+2024-12-30 16:14:44.150 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=4bWkOvxK2i5dNOCdg9uVyA - null null
+2024-12-30 16:14:44.152 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:14:44.153 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 16:19:24.907 +05:30 [INF] User profile is available. Using 'C:\Users\mohammed.sajid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-30 16:19:25.355 +05:30 [INF] Now listening on: https://localhost:5163
+2024-12-30 16:19:25.397 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-30 16:19:25.399 +05:30 [INF] Hosting environment: Development
+2024-12-30 16:19:25.400 +05:30 [INF] Content root path: C:\Sk\EHMS\EHMSWebApp
+2024-12-30 16:19:26.304 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/ - null null
+2024-12-30 16:19:26.587 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 16:19:26.595 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 16:19:26.602 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 16:19:26.603 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 16:19:27.067 +05:30 [INF] Executed page /_Host in 468.6047ms
+2024-12-30 16:19:27.069 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 16:19:27.078 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 16:19:27.080 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 16:19:27.082 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/ - 200 null text/html; charset=utf-8 790.2996ms
+2024-12-30 16:19:27.098 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 20.6177ms
+2024-12-30 16:19:27.101 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 16:19:27.104 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 16:19:27.109 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 16:19:27.118 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 16:19:27.120 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 40.9071ms
+2024-12-30 16:19:27.134 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 16:19:27.139 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 16:19:27.145 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 16:19:27.147 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 12.9647ms
+2024-12-30 16:19:27.147 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 47.1544ms
+2024-12-30 16:19:27.153 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 16:19:27.157 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:19:27.159 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 16:19:27.168 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 16:19:27.169 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 15.9891ms
+2024-12-30 16:19:27.174 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=AnU_UbfAkb1RAxp16_mUTQ - null null
+2024-12-30 16:19:27.177 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:19:27.178 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 16:33:01.125 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 16:33:01.154 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 16:33:01.158 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 16:33:01.162 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 16:33:01.166 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 16:33:01.207 +05:30 [INF] Executed page /_Host in 47.4306ms
+2024-12-30 16:33:01.209 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 16:33:01.210 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 86.163ms
+2024-12-30 16:33:01.220 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundarydFSw76fJDsqSOlgO 359
+2024-12-30 16:33:01.222 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:33:01.223 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 16:33:01.231 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 16:33:01.231 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 16:33:01.232 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 16:33:01.245 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 13.2422ms
+2024-12-30 16:33:01.245 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 16:33:01.243 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 16:33:01.262 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=AnU_UbfAkb1RAxp16_mUTQ - 200 null null 814086.3264ms
+2024-12-30 16:33:01.266 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 16:33:01.269 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 16:33:01.272 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 52.2341ms
+2024-12-30 16:33:01.272 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 16:33:01.278 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.0495ms
+2024-12-30 16:33:01.279 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 48.0143ms
+2024-12-30 16:33:01.288 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 16:33:01.291 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 16:33:01.292 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 16:33:01.294 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 6.0965ms
+2024-12-30 16:33:01.300 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 16:33:01.302 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:33:01.304 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 16:33:01.305 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 16:33:01.306 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 6.095ms
+2024-12-30 16:33:01.309 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=D3SwiKcBfyQ8r98kfWzavQ - null null
+2024-12-30 16:33:01.311 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:33:01.312 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 16:33:02.676 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 16:33:02.683 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 16:33:02.684 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 16:33:02.686 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 16:33:02.687 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 16:33:02.695 +05:30 [INF] Executed page /_Host in 9.4806ms
+2024-12-30 16:33:02.696 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 16:33:02.697 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 21.3989ms
+2024-12-30 16:33:02.702 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryILD9HTUBo94i9a0C 359
+2024-12-30 16:33:02.705 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:33:02.706 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 16:33:02.707 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 16:33:02.708 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 16:33:02.708 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=D3SwiKcBfyQ8r98kfWzavQ - 200 null null 1399.7ms
+2024-12-30 16:33:02.709 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 6.7395ms
+2024-12-30 16:33:02.712 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 16:33:02.712 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 16:33:02.712 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 16:33:02.717 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 16:33:02.719 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 7.3601ms
+2024-12-30 16:33:02.723 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 16:33:02.728 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 16:33:02.730 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 18.0133ms
+2024-12-30 16:33:02.734 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 16:33:02.742 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 30.4404ms
+2024-12-30 16:33:02.743 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 16:33:02.745 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 16:33:02.746 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 12.1892ms
+2024-12-30 16:33:02.754 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 16:33:02.755 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/favicon.ico - null null
+2024-12-30 16:33:02.757 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:33:02.759 +05:30 [INF] The file /favicon.ico was not modified
+2024-12-30 16:33:02.760 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 16:33:02.760 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/favicon.ico - 304 null image/x-icon 5.471ms
+2024-12-30 16:33:02.761 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 16:33:02.764 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 9.9166ms
+2024-12-30 16:33:02.767 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=jKmqXw5AS4Qp_OpB_j8KXw - null null
+2024-12-30 16:33:02.769 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:33:02.770 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 16:33:20.706 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 16:33:20.712 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 16:33:20.713 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 16:33:20.714 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 16:33:20.715 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 16:33:20.723 +05:30 [INF] Executed page /_Host in 8.5711ms
+2024-12-30 16:33:20.724 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 16:33:20.725 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 18.7078ms
+2024-12-30 16:33:20.731 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundary1k87BI8BLZUo0DRW 359
+2024-12-30 16:33:20.733 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 16:33:20.734 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:33:20.735 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=jKmqXw5AS4Qp_OpB_j8KXw - 200 null null 17967.8421ms
+2024-12-30 16:33:20.736 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 16:33:20.738 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 16:33:20.739 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 8.2092ms
+2024-12-30 16:33:20.742 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 16:33:20.745 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 16:33:20.745 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 16:33:20.745 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 16:33:20.746 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 16:33:20.748 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 3.1821ms
+2024-12-30 16:33:20.752 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 16:33:20.759 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 17.5543ms
+2024-12-30 16:33:20.763 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 16:33:20.767 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 16:33:20.771 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 16:33:20.771 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.5974ms
+2024-12-30 16:33:20.772 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 8.91ms
+2024-12-30 16:33:20.778 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 16:33:20.780 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:33:20.781 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 16:33:20.782 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 16:33:20.784 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 6.6446ms
+2024-12-30 16:33:20.789 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=NGNRZHDtf07oNRda70FMqA - null null
+2024-12-30 16:33:20.790 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:33:20.791 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 16:33:58.428 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 16:33:58.436 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 16:33:58.437 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 16:33:58.438 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 16:33:58.439 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 16:33:58.446 +05:30 [INF] Executed page /_Host in 7.8826ms
+2024-12-30 16:33:58.447 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 16:33:58.448 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 20.2239ms
+2024-12-30 16:33:58.453 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryw63QxH42aBIdebRG 359
+2024-12-30 16:33:58.455 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 16:33:58.457 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:33:58.457 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=NGNRZHDtf07oNRda70FMqA - 200 null null 37668.6697ms
+2024-12-30 16:33:58.458 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 16:33:58.461 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 16:33:58.462 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 8.316ms
+2024-12-30 16:33:58.464 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 16:33:58.467 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 16:33:58.467 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 16:33:58.467 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 16:33:58.468 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 16:33:58.470 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 2.9534ms
+2024-12-30 16:33:58.472 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 16:33:58.477 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 12.8244ms
+2024-12-30 16:33:58.482 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 16:33:58.488 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.4628ms
+2024-12-30 16:33:58.489 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 16:33:58.491 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 16:33:58.492 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 9.872ms
+2024-12-30 16:33:58.498 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 16:33:58.501 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:33:58.502 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 16:33:58.503 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 16:33:58.503 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 5.3686ms
+2024-12-30 16:33:58.505 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=J9PoVk3QZ_iD8IrXEpfIeA - null null
+2024-12-30 16:33:58.507 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:33:58.508 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 16:34:23.166 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 16:34:23.176 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 16:34:23.178 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 16:34:23.179 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 16:34:23.180 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 16:34:23.188 +05:30 [INF] Executed page /_Host in 8.381ms
+2024-12-30 16:34:23.189 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 16:34:23.190 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 24.1803ms
+2024-12-30 16:34:23.195 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryJ9IpxjBZSlKCIm7l 359
+2024-12-30 16:34:23.197 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 16:34:23.197 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:34:23.198 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=J9PoVk3QZ_iD8IrXEpfIeA - 200 null null 24692.9529ms
+2024-12-30 16:34:23.199 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 16:34:23.201 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 16:34:23.202 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 7.7644ms
+2024-12-30 16:34:23.205 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 16:34:23.205 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 16:34:23.205 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 16:34:23.208 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 16:34:23.212 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 6.9088ms
+2024-12-30 16:34:23.213 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 16:34:23.216 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 16:34:23.217 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 12.009ms
+2024-12-30 16:34:23.224 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 16:34:23.226 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.167ms
+2024-12-30 16:34:23.227 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 16:34:23.230 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 16:34:23.231 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 7.1044ms
+2024-12-30 16:34:23.236 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 16:34:23.239 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:34:23.240 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 16:34:23.241 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 16:34:23.242 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 6.89ms
+2024-12-30 16:34:23.245 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=AzvlfT85lyFf4wrOq4xK8Q - null null
+2024-12-30 16:34:23.247 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:34:23.248 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 16:34:53.809 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 16:34:53.816 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 16:34:53.819 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 16:34:53.821 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 16:34:53.821 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 16:34:53.829 +05:30 [INF] Executed page /_Host in 8.6504ms
+2024-12-30 16:34:53.830 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 16:34:53.831 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 22.3297ms
+2024-12-30 16:34:53.839 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryuoTre98An8pFA4my 359
+2024-12-30 16:34:53.842 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 16:34:53.842 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:34:53.843 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=AzvlfT85lyFf4wrOq4xK8Q - 200 null null 30598.3619ms
+2024-12-30 16:34:53.843 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 16:34:53.846 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 16:34:53.847 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 10.6229ms
+2024-12-30 16:34:53.849 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 16:34:53.852 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 16:34:53.852 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 16:34:53.852 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 16:34:53.856 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 4.7552ms
+2024-12-30 16:34:53.861 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 16:34:53.865 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 16:34:53.866 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 17.5603ms
+2024-12-30 16:34:53.874 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 16:34:53.878 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.0729ms
+2024-12-30 16:34:53.879 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 16:34:53.883 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 16:34:53.884 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 9.5025ms
+2024-12-30 16:34:53.890 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 16:34:53.893 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:34:53.895 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 16:34:53.896 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 16:34:53.897 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 7.544ms
+2024-12-30 16:34:53.899 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=SqPOQFNSkQXiZSzm48yQmA - null null
+2024-12-30 16:34:53.902 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:34:53.904 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 16:35:06.354 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 16:35:06.372 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 16:35:06.374 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 16:35:06.375 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 16:35:06.376 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 16:35:06.383 +05:30 [INF] Executed page /_Host in 8.2693ms
+2024-12-30 16:35:06.384 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 16:35:06.385 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 31.7131ms
+2024-12-30 16:35:06.392 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundarymT1yACRnnj8A1pQq 359
+2024-12-30 16:35:06.395 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 16:35:06.395 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:35:06.396 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=SqPOQFNSkQXiZSzm48yQmA - 200 null null 12496.8235ms
+2024-12-30 16:35:06.397 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 16:35:06.400 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 16:35:06.401 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 9.4229ms
+2024-12-30 16:35:06.404 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 16:35:06.407 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 16:35:06.408 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 16:35:06.408 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 16:35:06.408 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 16:35:06.414 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 5.9169ms
+2024-12-30 16:35:06.414 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 16:35:06.423 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 18.5037ms
+2024-12-30 16:35:06.426 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.7124ms
+2024-12-30 16:35:06.427 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 16:35:06.435 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 16:35:06.436 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 16:35:06.437 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 9.5136ms
+2024-12-30 16:35:06.443 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 16:35:06.447 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:35:06.448 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 16:35:06.450 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 16:35:06.452 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 10.036ms
+2024-12-30 16:35:06.457 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=lCSApxnUr6c5PVluFAMwBw - null null
+2024-12-30 16:35:06.459 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:35:06.460 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 16:35:08.563 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 16:35:08.571 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 16:35:08.573 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 16:35:08.574 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 16:35:08.574 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 16:35:08.581 +05:30 [INF] Executed page /_Host in 6.9118ms
+2024-12-30 16:35:08.582 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 16:35:08.582 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 19.2962ms
+2024-12-30 16:35:08.589 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundary4VHx3QqdZFsZ2bBm 359
+2024-12-30 16:35:08.591 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 16:35:08.591 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:35:08.592 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=lCSApxnUr6c5PVluFAMwBw - 200 null null 2134.9797ms
+2024-12-30 16:35:08.593 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 16:35:08.595 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 16:35:08.596 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 7.0968ms
+2024-12-30 16:35:08.598 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 16:35:08.599 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 16:35:08.599 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 16:35:08.601 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 16:35:08.602 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 4.0682ms
+2024-12-30 16:35:08.606 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 16:35:08.609 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 16:35:08.610 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 12.4259ms
+2024-12-30 16:35:08.615 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 16:35:08.620 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.6281ms
+2024-12-30 16:35:08.621 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 16:35:08.623 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 16:35:08.625 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 10.1411ms
+2024-12-30 16:35:08.631 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 16:35:08.633 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:35:08.634 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 16:35:08.635 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 16:35:08.637 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 5.8253ms
+2024-12-30 16:35:08.642 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=Ldw9QiUuFsPxXYb9ahQ7gg - null null
+2024-12-30 16:35:08.644 +05:30 [INF] CORS policy execution successful.
+2024-12-30 16:35:08.645 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 18:27:49.359 +05:30 [INF] User profile is available. Using 'C:\Users\mohammed.sajid\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-30 18:27:49.920 +05:30 [INF] Now listening on: https://localhost:5163
+2024-12-30 18:27:49.973 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-30 18:27:49.975 +05:30 [INF] Hosting environment: Development
+2024-12-30 18:27:49.976 +05:30 [INF] Content root path: C:\Sk\EHMS\EHMSWebApp
+2024-12-30 18:27:50.863 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/ - null null
+2024-12-30 18:27:51.126 +05:30 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2024-12-30 18:27:51.127 +05:30 [INF] OpenIdConnect was not authenticated. Failure message: Unprotect ticket failed
+2024-12-30 18:27:51.131 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 18:27:51.137 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 18:27:51.145 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 18:27:51.146 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 18:27:51.222 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-30 18:27:51.330 +05:30 [INF] Executed page /_Host in 188.2271ms
+2024-12-30 18:27:51.343 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 18:27:51.356 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/ - 200 null text/html; charset=utf-8 496.5921ms
+2024-12-30 18:27:51.360 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 18:27:51.360 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 18:27:51.373 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 18:27:51.373 +05:30 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2024-12-30 18:27:51.378 +05:30 [INF] OpenIdConnect was not authenticated. Failure message: Unprotect ticket failed
+2024-12-30 18:27:51.382 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 21.8471ms
+2024-12-30 18:27:51.387 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 18:27:51.398 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 18:27:51.400 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 18:27:51.402 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 41.5441ms
+2024-12-30 18:27:51.416 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 18:27:51.425 +05:30 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2024-12-30 18:27:51.427 +05:30 [INF] OpenIdConnect was not authenticated. Failure message: Unprotect ticket failed
+2024-12-30 18:27:51.428 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 18:27:51.430 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 18:27:51.431 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 15.0289ms
+2024-12-30 18:27:51.439 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 18:27:51.450 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:27:51.457 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 83.5725ms
+2024-12-30 18:27:51.458 +05:30 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2024-12-30 18:27:51.460 +05:30 [INF] OpenIdConnect was not authenticated. Failure message: Unprotect ticket failed
+2024-12-30 18:27:51.461 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 18:27:51.471 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 18:27:51.473 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 33.2336ms
+2024-12-30 18:27:51.482 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=KF2PX6M8l0LPhFHhrrQj-Q - null null
+2024-12-30 18:27:51.485 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:27:51.488 +05:30 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2024-12-30 18:27:51.489 +05:30 [INF] OpenIdConnect was not authenticated. Failure message: Unprotect ticket failed
+2024-12-30 18:27:51.490 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 18:27:51.614 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-30 18:27:52.616 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-30 18:27:52.618 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-30 18:27:52.626 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/account/login - null null
+2024-12-30 18:27:52.636 +05:30 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2024-12-30 18:27:52.638 +05:30 [INF] OpenIdConnect was not authenticated. Failure message: Unprotect ticket failed
+2024-12-30 18:27:52.641 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-12-30 18:27:55.030 +05:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2024-12-30 18:27:55.035 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/account/login - 302 0 null 2408.5986ms
+2024-12-30 18:27:55.799 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundary9Z7Ij5H4DwPBa55m 359
+2024-12-30 18:27:55.804 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:27:55.806 +05:30 [INF] Cookies was not authenticated. Failure message: Unprotect ticket failed
+2024-12-30 18:27:55.806 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 18:27:55.808 +05:30 [INF] OpenIdConnect was not authenticated. Failure message: Unprotect ticket failed
+2024-12-30 18:27:55.808 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=KF2PX6M8l0LPhFHhrrQj-Q - 200 null null 4326.2917ms
+2024-12-30 18:27:55.809 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 18:27:55.826 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 18:27:55.827 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 28.3328ms
+2024-12-30 18:28:11.656 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/signin-oidc - application/x-www-form-urlencoded 2025
+2024-12-30 18:28:11.664 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:28:11.726 +05:30 [INF] Microsoft.IdentityModel Version: 8.3.0.0. Date 12/30/2024 12:58:11. PII logging is OFF. See https://aka.ms/IdentityModel/PII for details. 
+IDX10242: Security token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' has a valid signature.
+2024-12-30 18:28:11.730 +05:30 [INF] IDX10239: Lifetime of the token is valid.
+2024-12-30 18:28:11.732 +05:30 [INF] IDX10234: Audience Validated.Audience: 'faf367e2-4c99-47f0-abd6-3678d76851cc'
+2024-12-30 18:28:14.228 +05:30 [INF] IDX10245: Creating claims identity from the validated token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2024-12-30 18:28:14.242 +05:30 [INF] IDX21305: OpenIdConnectProtocolValidationContext.ProtocolMessage.Code is null, there is no 'code' in the OpenIdConnect Response to validate.
+2024-12-30 18:28:14.245 +05:30 [INF] IDX21310: OpenIdConnectProtocolValidationContext.ProtocolMessage.AccessToken is null, there is no 'token' in the OpenIdConnect Response to validate.
+2024-12-30 18:28:14.249 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2024-12-30 18:28:14.252 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/signin-oidc - 302 0 null 2597.2141ms
+2024-12-30 18:28:14.256 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/account/login - null null
+2024-12-30 18:28:14.267 +05:30 [INF] Executing endpoint 'EHMSWebApp.Controllers.AccountController.Login (EHMSWebApp)'
+2024-12-30 18:28:14.273 +05:30 [INF] Route matched with {action = "Login", controller = "Account", page = "", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller EHMSWebApp.Controllers.AccountController (EHMSWebApp).
+2024-12-30 18:28:14.277 +05:30 [INF] Executing ChallengeResult with authentication schemes (["OpenIdConnect"]).
+2024-12-30 18:28:14.281 +05:30 [INF] AuthenticationScheme: OpenIdConnect was challenged.
+2024-12-30 18:28:14.283 +05:30 [INF] Executed action EHMSWebApp.Controllers.AccountController.Login (EHMSWebApp) in 7.825ms
+2024-12-30 18:28:14.283 +05:30 [INF] Executed endpoint 'EHMSWebApp.Controllers.AccountController.Login (EHMSWebApp)'
+2024-12-30 18:28:14.284 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/account/login - 302 0 null 28.1345ms
+2024-12-30 18:28:19.821 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/signin-oidc - application/x-www-form-urlencoded 2003
+2024-12-30 18:28:19.829 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:28:19.833 +05:30 [INF] IDX10242: Security token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' has a valid signature.
+2024-12-30 18:28:19.834 +05:30 [INF] IDX10239: Lifetime of the token is valid.
+2024-12-30 18:28:19.835 +05:30 [INF] IDX10234: Audience Validated.Audience: 'faf367e2-4c99-47f0-abd6-3678d76851cc'
+2024-12-30 18:28:19.838 +05:30 [INF] IDX10245: Creating claims identity from the validated token: '[PII of type 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2024-12-30 18:28:19.841 +05:30 [INF] IDX21305: OpenIdConnectProtocolValidationContext.ProtocolMessage.Code is null, there is no 'code' in the OpenIdConnect Response to validate.
+2024-12-30 18:28:19.842 +05:30 [INF] IDX21310: OpenIdConnectProtocolValidationContext.ProtocolMessage.AccessToken is null, there is no 'token' in the OpenIdConnect Response to validate.
+2024-12-30 18:28:19.844 +05:30 [INF] AuthenticationScheme: Cookies signed in.
+2024-12-30 18:28:19.845 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/signin-oidc - 302 0 null 23.8105ms
+2024-12-30 18:28:19.849 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/ - null null
+2024-12-30 18:28:19.855 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 18:28:19.858 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 18:28:19.862 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 18:28:19.863 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 18:28:20.480 +05:30 [INF] Executed page /_Host in 620.1422ms
+2024-12-30 18:28:20.482 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 18:28:20.484 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/ - 200 null text/html; charset=utf-8 635.5105ms
+2024-12-30 18:28:20.497 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 18:28:20.499 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 18:28:20.503 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 6.2068ms
+2024-12-30 18:28:20.506 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 18:28:20.507 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 18:28:20.508 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 18:28:20.510 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 18:28:20.512 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 13.4849ms
+2024-12-30 18:28:20.533 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.0121ms
+2024-12-30 18:28:20.556 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 18:28:20.561 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 18:28:20.562 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 18:28:20.563 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 7.1453ms
+2024-12-30 18:28:20.575 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 18:28:20.577 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:28:20.578 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 18:28:20.579 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 18:28:20.579 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 4.7378ms
+2024-12-30 18:28:20.583 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=c5uDeIAF2vMNhLWXMS_YAw - null null
+2024-12-30 18:28:20.585 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:28:20.587 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 18:28:39.830 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 18:28:39.834 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 18:28:39.837 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 18:28:39.839 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 18:28:39.840 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 18:28:39.848 +05:30 [INF] Executed page /_Host in 9.4974ms
+2024-12-30 18:28:39.849 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 18:28:39.850 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 20.3839ms
+2024-12-30 18:28:39.859 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryHJUXTnNq9Bv3MOPe 359
+2024-12-30 18:28:39.862 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:28:39.863 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 18:28:39.864 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 18:28:39.865 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 18:28:39.865 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 18:28:39.865 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=c5uDeIAF2vMNhLWXMS_YAw - 200 null null 19282.0935ms
+2024-12-30 18:28:39.866 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 7.6923ms
+2024-12-30 18:28:39.870 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 18:28:39.871 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 18:28:39.871 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 18:28:39.875 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 18:28:39.883 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 18:28:39.883 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 12.1806ms
+2024-12-30 18:28:39.884 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 19.2232ms
+2024-12-30 18:28:39.894 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 18:28:39.898 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 26.656ms
+2024-12-30 18:28:39.898 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 18:28:39.907 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 18:28:39.911 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 17.035ms
+2024-12-30 18:28:39.929 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 18:28:39.932 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:28:39.933 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 18:28:39.934 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 18:28:39.935 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 5.9058ms
+2024-12-30 18:28:39.937 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=JollVBYGIHUqvXqphaWaCA - null null
+2024-12-30 18:28:39.939 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:28:39.941 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 18:28:48.389 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 18:28:48.395 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 18:28:48.397 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 18:28:48.398 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 18:28:48.398 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 18:28:48.406 +05:30 [INF] Executed page /_Host in 8.4772ms
+2024-12-30 18:28:48.407 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 18:28:48.408 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 19.7061ms
+2024-12-30 18:28:48.415 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundary8nanMpAn85nHGCNU 359
+2024-12-30 18:28:48.416 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 18:28:48.418 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:28:48.418 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=JollVBYGIHUqvXqphaWaCA - 200 null null 8481.2807ms
+2024-12-30 18:28:48.419 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 18:28:48.422 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 18:28:48.423 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 18:28:48.424 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 11.9118ms
+2024-12-30 18:28:48.424 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 18:28:48.425 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 18:28:48.426 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 18:28:48.429 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 18:28:48.430 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 4.9869ms
+2024-12-30 18:28:48.433 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 18:28:48.437 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 15.1451ms
+2024-12-30 18:28:48.443 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 18:28:48.445 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.5511ms
+2024-12-30 18:28:48.446 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 18:28:48.449 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 18:28:48.451 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 7.668ms
+2024-12-30 18:28:48.464 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 18:28:48.466 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:28:48.467 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 18:28:48.468 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 18:28:48.469 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 5.6296ms
+2024-12-30 18:28:48.472 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=UggeBeQVPESasFGVcVq6Jg - null null
+2024-12-30 18:28:48.474 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:28:48.475 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 18:29:06.064 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 18:29:06.073 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 18:29:06.074 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 18:29:06.076 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 18:29:06.077 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 18:29:06.104 +05:30 [INF] Executed page /_Host in 28.9526ms
+2024-12-30 18:29:06.106 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 18:29:06.108 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 43.3645ms
+2024-12-30 18:29:06.112 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryHyByYv7bw9qaTQFl 359
+2024-12-30 18:29:06.116 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 18:29:06.118 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:29:06.118 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=UggeBeQVPESasFGVcVq6Jg - 200 null null 17646.2398ms
+2024-12-30 18:29:06.119 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 18:29:06.121 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 18:29:06.123 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 18:29:06.125 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 18:29:06.125 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 18:29:06.126 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 18:29:06.128 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 3.6353ms
+2024-12-30 18:29:06.131 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 18:29:06.125 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 13.2145ms
+2024-12-30 18:29:06.138 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 18:29:06.141 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 19.6513ms
+2024-12-30 18:29:06.147 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 18:29:06.150 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.612ms
+2024-12-30 18:29:06.152 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 18:29:06.154 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 18:29:06.155 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 7.8385ms
+2024-12-30 18:29:06.170 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 18:29:06.172 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:29:06.173 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 18:29:06.174 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 18:29:06.175 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 5.472ms
+2024-12-30 18:29:06.178 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=-GCDfXbWgAI-VoV5PKdIxQ - null null
+2024-12-30 18:29:06.180 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:29:06.181 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 18:29:12.344 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 18:29:12.351 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 18:29:12.353 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 18:29:12.354 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 18:29:12.354 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 18:29:12.363 +05:30 [INF] Executed page /_Host in 9.266ms
+2024-12-30 18:29:12.364 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 18:29:12.365 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 20.229ms
+2024-12-30 18:29:12.371 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryA7Mwp6wi4gwZoMw5 359
+2024-12-30 18:29:12.373 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 18:29:12.374 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:29:12.374 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=-GCDfXbWgAI-VoV5PKdIxQ - 200 null null 6196.4967ms
+2024-12-30 18:29:12.375 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 18:29:12.378 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 18:29:12.379 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 7.5097ms
+2024-12-30 18:29:12.381 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 18:29:12.383 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 18:29:12.384 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 18:29:12.384 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 18:29:12.384 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 18:29:12.386 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 2.3831ms
+2024-12-30 18:29:12.387 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 18:29:12.394 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 13.0749ms
+2024-12-30 18:29:12.398 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 18:29:12.402 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 18:29:12.404 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 18:29:12.404 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.6787ms
+2024-12-30 18:29:12.405 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 6.8017ms
+2024-12-30 18:29:12.416 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 18:29:12.418 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:29:12.419 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 18:29:12.420 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 18:29:12.420 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 4.5421ms
+2024-12-30 18:29:12.422 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=0ACHwEDzjtApvvAcdFpH4Q - null null
+2024-12-30 18:29:12.424 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:29:12.426 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 18:29:16.135 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 18:29:16.142 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 18:29:16.143 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 18:29:16.144 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 18:29:16.145 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 18:29:16.161 +05:30 [INF] Executed page /_Host in 16.9691ms
+2024-12-30 18:29:16.162 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 18:29:16.163 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 27.7705ms
+2024-12-30 18:29:16.177 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundarygsg0Bo2bFOIkdac2 359
+2024-12-30 18:29:16.188 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 18:29:16.189 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:29:16.190 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=0ACHwEDzjtApvvAcdFpH4Q - 200 null null 3767.8543ms
+2024-12-30 18:29:16.192 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 18:29:16.191 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 18:29:16.197 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 18:29:16.198 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 18:29:16.203 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 18:29:16.202 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 18:29:16.206 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 18:29:16.206 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 8.4656ms
+2024-12-30 18:29:16.209 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 32.7381ms
+2024-12-30 18:29:16.211 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 18:29:16.216 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 24.1056ms
+2024-12-30 18:29:16.221 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 18:29:16.225 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.084ms
+2024-12-30 18:29:16.226 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 18:29:16.232 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 18:29:16.235 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 14.5414ms
+2024-12-30 18:29:16.240 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 18:29:16.242 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:29:16.243 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 18:29:16.244 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 18:29:16.245 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 5.2842ms
+2024-12-30 18:29:16.249 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=IkkfdDRT0x54j9mYVRzb-A - null null
+2024-12-30 18:29:16.253 +05:30 [INF] CORS policy execution successful.
+2024-12-30 18:29:16.254 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 19:23:15.710 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/css/bootstrap/bootstrap.min.css.map - null null
+2024-12-30 19:23:15.716 +05:30 [INF] The file /css/bootstrap/bootstrap.min.css.map was not modified
+2024-12-30 19:23:15.718 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/css/bootstrap/bootstrap.min.css.map - 304 null text/plain 7.6028ms
+2024-12-30 19:27:49.847 +05:30 [ERR] employee details save
+2024-12-30 19:28:15.028 +05:30 [ERR] employee details save
+2024-12-30 19:28:33.268 +05:30 [ERR] employee details save
+2024-12-30 19:28:42.252 +05:30 [ERR] employee details save
+2024-12-30 19:28:47.348 +05:30 [ERR] employee details save
+2024-12-30 19:29:35.577 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/employee - null null
+2024-12-30 19:29:35.594 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 19:29:35.596 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 19:29:35.597 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 19:29:35.598 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 19:29:35.637 +05:30 [INF] Executed page /_Host in 40.8316ms
+2024-12-30 19:29:35.639 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 19:29:35.640 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/employee - 200 null text/html; charset=utf-8 63.0721ms
+2024-12-30 19:29:35.649 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundary0jCbwn7czMt5AsuT 359
+2024-12-30 19:29:35.656 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 19:29:35.657 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:29:35.657 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=IkkfdDRT0x54j9mYVRzb-A - 200 null null 3619401.2815ms
+2024-12-30 19:29:35.659 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 19:29:35.663 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 19:29:35.663 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 19:29:35.664 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 15.468ms
+2024-12-30 19:29:35.666 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 19:29:35.669 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 19:29:35.669 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 19:29:35.674 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 5.5656ms
+2024-12-30 19:29:35.669 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 19:29:35.690 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 19:29:35.691 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 28.5993ms
+2024-12-30 19:29:35.713 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 19:29:35.719 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.2971ms
+2024-12-30 19:29:35.719 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 19:29:35.740 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 19:29:35.741 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 27.9904ms
+2024-12-30 19:29:35.752 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 19:29:35.758 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:29:35.759 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 19:29:35.762 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 19:29:35.769 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 16.8393ms
+2024-12-30 19:29:35.780 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=r2k7aLw8pYIFJvef6_m6LA - null null
+2024-12-30 19:29:35.799 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:29:35.808 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 19:31:40.737 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 19:31:40.752 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 19:31:40.753 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 19:31:40.755 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 19:31:40.755 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 19:31:40.762 +05:30 [INF] Executed page /_Host in 7.0674ms
+2024-12-30 19:31:40.762 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 19:31:40.763 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 26.1623ms
+2024-12-30 19:31:40.777 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundarypRJNA9VKq5CzW1pd 359
+2024-12-30 19:31:40.779 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:31:40.780 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 19:31:40.781 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 19:31:40.781 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=r2k7aLw8pYIFJvef6_m6LA - 200 null null 125000.079ms
+2024-12-30 19:31:40.783 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 19:31:40.786 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 19:31:40.788 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 11.3234ms
+2024-12-30 19:31:40.791 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 19:31:40.793 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 19:31:40.795 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 19:31:40.802 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 10.453ms
+2024-12-30 19:31:40.804 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 19:31:40.807 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 19:31:40.808 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 22.4077ms
+2024-12-30 19:31:40.818 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.3932ms
+2024-12-30 19:31:40.823 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 19:31:40.827 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 19:31:40.828 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 19:31:40.829 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 7.0593ms
+2024-12-30 19:31:40.841 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 19:31:40.844 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:31:40.845 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 19:31:40.846 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 19:31:40.847 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 5.8574ms
+2024-12-30 19:31:40.849 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=Y9tFinTX_H4NPFpMQHKEgw - null null
+2024-12-30 19:31:40.851 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:31:40.851 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 19:31:46.203 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 19:31:46.208 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 19:31:46.209 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 19:31:46.210 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 19:31:46.211 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 19:31:46.217 +05:30 [INF] Executed page /_Host in 7.4281ms
+2024-12-30 19:31:46.218 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 19:31:46.219 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 16.6274ms
+2024-12-30 19:31:46.226 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundarywotSKAmTAOiFGS4M 359
+2024-12-30 19:31:46.230 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 19:31:46.231 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:31:46.231 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=Y9tFinTX_H4NPFpMQHKEgw - 200 null null 5382.4461ms
+2024-12-30 19:31:46.232 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 19:31:46.235 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 19:31:46.236 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 10.2283ms
+2024-12-30 19:31:46.238 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 19:31:46.241 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 19:31:46.241 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 19:31:46.241 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 19:31:46.242 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 19:31:46.244 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 2.7159ms
+2024-12-30 19:31:46.246 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 19:31:46.252 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 14.5775ms
+2024-12-30 19:31:46.258 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 19:31:46.262 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.8513ms
+2024-12-30 19:31:46.262 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 19:31:46.267 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 19:31:46.268 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 10.8021ms
+2024-12-30 19:31:46.276 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 19:31:46.277 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:31:46.278 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 19:31:46.279 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 19:31:46.280 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 4.1626ms
+2024-12-30 19:31:46.283 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=zBfbSjzakn84E-FpcENhrQ - null null
+2024-12-30 19:31:46.285 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:31:46.286 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 19:31:50.811 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 19:31:50.818 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 19:31:50.818 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 19:31:50.819 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 19:31:50.820 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 19:31:50.828 +05:30 [INF] Executed page /_Host in 8.8631ms
+2024-12-30 19:31:50.829 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 19:31:50.830 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 18.9547ms
+2024-12-30 19:31:50.836 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundarylYEjyljdRq2Z0ZMG 359
+2024-12-30 19:31:50.838 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 19:31:50.838 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:31:50.839 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=zBfbSjzakn84E-FpcENhrQ - 200 null null 4555.9286ms
+2024-12-30 19:31:50.840 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 19:31:50.843 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 19:31:50.843 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 7.9016ms
+2024-12-30 19:31:50.849 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 19:31:50.853 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 19:31:50.856 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 19:31:50.857 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 19:31:50.857 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 19:31:50.861 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 5.2429ms
+2024-12-30 19:31:50.864 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 19:31:50.877 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 27.4796ms
+2024-12-30 19:31:50.883 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 19:31:50.899 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.7736ms
+2024-12-30 19:31:50.900 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 19:31:50.901 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 19:31:50.902 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 18.8497ms
+2024-12-30 19:31:50.914 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 19:31:50.918 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:31:50.923 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 19:31:50.929 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 19:31:50.930 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 16.1048ms
+2024-12-30 19:31:50.933 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=gQGgZEXGXsNxPPv2O5quGg - null null
+2024-12-30 19:31:50.935 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:31:50.939 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 19:31:53.951 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 19:31:53.956 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 19:31:53.958 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 19:31:53.960 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 19:31:53.961 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 19:31:53.968 +05:30 [INF] Executed page /_Host in 7.7632ms
+2024-12-30 19:31:53.969 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 19:31:53.970 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 18.9039ms
+2024-12-30 19:31:53.976 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryR18y9yXJmM89IV3q 359
+2024-12-30 19:31:53.978 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 19:31:53.979 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:31:53.979 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=gQGgZEXGXsNxPPv2O5quGg - 200 null null 3046.6083ms
+2024-12-30 19:31:53.980 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 19:31:53.984 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 19:31:53.984 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 8.421ms
+2024-12-30 19:31:53.991 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 19:31:53.992 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 19:31:53.992 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 19:31:53.993 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 19:31:53.995 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 3.7515ms
+2024-12-30 19:31:53.999 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 19:31:54.002 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 19:31:54.003 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 12.8824ms
+2024-12-30 19:31:54.012 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 19:31:54.017 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.8183ms
+2024-12-30 19:31:54.017 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 19:31:54.020 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 19:31:54.021 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 8.9275ms
+2024-12-30 19:31:54.032 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 19:31:54.035 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:31:54.036 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 19:31:54.037 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 19:31:54.038 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 6.7265ms
+2024-12-30 19:31:54.041 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=Dvc6Obj3d_IW2xxagAxutQ - null null
+2024-12-30 19:31:54.043 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:31:54.044 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 19:31:58.670 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 19:31:58.675 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 19:31:58.676 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 19:31:58.678 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 19:31:58.679 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 19:31:58.686 +05:30 [INF] Executed page /_Host in 8.8463ms
+2024-12-30 19:31:58.687 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 19:31:58.688 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 18.7084ms
+2024-12-30 19:31:58.694 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryF3qAElRVSN8l5uDo 359
+2024-12-30 19:31:58.698 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 19:31:58.698 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:31:58.699 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=Dvc6Obj3d_IW2xxagAxutQ - 200 null null 4658.3036ms
+2024-12-30 19:31:58.700 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 19:31:58.702 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 19:31:58.703 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 9.7148ms
+2024-12-30 19:31:58.707 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 19:31:58.711 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 19:31:58.712 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 19:31:58.712 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 19:31:58.713 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 19:31:58.718 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 6.0257ms
+2024-12-30 19:31:58.719 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 19:31:58.723 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 16.2485ms
+2024-12-30 19:31:58.731 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 19:31:58.732 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 20.1919ms
+2024-12-30 19:31:58.735 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 19:31:58.738 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 19:31:58.738 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 7.4171ms
+2024-12-30 19:31:58.744 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 19:31:58.747 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:31:58.748 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 19:31:58.750 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 19:31:58.752 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 8.5786ms
+2024-12-30 19:31:58.755 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=xIMRoe0tk78A5rVQ0sUL2A - null null
+2024-12-30 19:31:58.758 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:31:58.759 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 19:32:01.871 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 19:32:01.876 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 19:32:01.877 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 19:32:01.878 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 19:32:01.879 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 19:32:01.885 +05:30 [INF] Executed page /_Host in 6.823ms
+2024-12-30 19:32:01.886 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 19:32:01.887 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 16.2005ms
+2024-12-30 19:32:01.894 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryIvfWXYwwjiWNk3Hj 359
+2024-12-30 19:32:01.896 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 19:32:01.897 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:32:01.897 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=xIMRoe0tk78A5rVQ0sUL2A - 200 null null 3142.454ms
+2024-12-30 19:32:01.898 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 19:32:01.901 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 19:32:01.902 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 7.5949ms
+2024-12-30 19:32:01.906 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 19:32:01.908 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 19:32:01.909 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 19:32:01.910 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 19:32:01.910 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 19:32:01.910 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 19:32:01.911 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 5.6866ms
+2024-12-30 19:32:01.918 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 8.069ms
+2024-12-30 19:32:01.919 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 19:32:01.932 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.01ms
+2024-12-30 19:32:01.934 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 19:32:01.937 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 19:32:01.938 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 19.7463ms
+2024-12-30 19:32:01.943 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 19:32:01.945 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:32:01.946 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 19:32:01.947 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 19:32:01.948 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 5.0861ms
+2024-12-30 19:32:01.952 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=qqPEB0BDF3qrrLxqMueocw - null null
+2024-12-30 19:32:01.954 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:32:01.955 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 19:32:11.739 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 19:32:11.745 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 19:32:11.746 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 19:32:11.747 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 19:32:11.748 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 19:32:11.755 +05:30 [INF] Executed page /_Host in 7.7932ms
+2024-12-30 19:32:11.756 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 19:32:11.756 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 18.1114ms
+2024-12-30 19:32:11.763 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundaryAzNgHCzyrYhFMAbt 359
+2024-12-30 19:32:11.767 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 19:32:11.768 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:32:11.769 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=qqPEB0BDF3qrrLxqMueocw - 200 null null 9816.5448ms
+2024-12-30 19:32:11.769 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 19:32:11.773 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 19:32:11.773 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 10.6618ms
+2024-12-30 19:32:11.775 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 19:32:11.775 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 19:32:11.775 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 19:32:11.779 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 3.2472ms
+2024-12-30 19:32:11.784 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 19:32:11.788 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 19:32:11.788 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 19:32:11.789 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 14.1909ms
+2024-12-30 19:32:11.797 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 19:32:11.800 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 24.8596ms
+2024-12-30 19:32:11.804 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 19:32:11.806 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 19:32:11.807 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 10.0499ms
+2024-12-30 19:32:11.815 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 19:32:11.819 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:32:11.821 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 19:32:11.824 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 19:32:11.825 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 10.0732ms
+2024-12-30 19:32:11.829 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=fcpmZmZyVJReq5hVP6ff-w - null null
+2024-12-30 19:32:11.832 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:32:11.833 +05:30 [INF] Executing endpoint '/_blazor'
+2024-12-30 19:32:33.604 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/role-rassign - null null
+2024-12-30 19:32:33.609 +05:30 [INF] Executing endpoint '/_Host'
+2024-12-30 19:32:33.610 +05:30 [INF] Route matched with {page = "/_Host", action = "", controller = "", area = ""}. Executing page /_Host
+2024-12-30 19:32:33.612 +05:30 [INF] Executing an implicit handler method - ModelState is "Valid"
+2024-12-30 19:32:33.612 +05:30 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2024-12-30 19:32:33.619 +05:30 [INF] Executed page /_Host in 8.0414ms
+2024-12-30 19:32:33.620 +05:30 [INF] Executed endpoint '/_Host'
+2024-12-30 19:32:33.621 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/role-rassign - 200 null text/html; charset=utf-8 16.8684ms
+2024-12-30 19:32:33.629 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/disconnect - multipart/form-data; boundary=----WebKitFormBoundarykjKJeZbu0FY5PNUE 359
+2024-12-30 19:32:33.630 +05:30 [INF] Executed endpoint '/_blazor'
+2024-12-30 19:32:33.631 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:32:33.632 +05:30 [INF] Request finished HTTP/2 CONNECT https://localhost:5163/_blazor?id=fcpmZmZyVJReq5hVP6ff-w - 200 null null 21802.3529ms
+2024-12-30 19:32:33.632 +05:30 [INF] Executing endpoint 'Blazor disconnect'
+2024-12-30 19:32:33.635 +05:30 [INF] Executed endpoint 'Blazor disconnect'
+2024-12-30 19:32:33.636 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/disconnect - 200 0 null 7.3228ms
+2024-12-30 19:32:33.640 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - null null
+2024-12-30 19:32:33.641 +05:30 [INF] Executing endpoint 'Blazor static files'
+2024-12-30 19:32:33.642 +05:30 [INF] The file /_framework/blazor.server.js was not modified
+2024-12-30 19:32:33.643 +05:30 [INF] Executed endpoint 'Blazor static files'
+2024-12-30 19:32:33.644 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_vs/browserLink - null null
+2024-12-30 19:32:33.644 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-30 19:32:33.644 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/blazor.server.js - 304 null text/javascript 5.1548ms
+2024-12-30 19:32:33.650 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 6.11ms
+2024-12-30 19:32:33.650 +05:30 [INF] Request starting HTTP/2 GET https://localhost:5163/_blazor/initializers - null null
+2024-12-30 19:32:33.661 +05:30 [INF] Executing endpoint 'Blazor initializers'
+2024-12-30 19:32:33.663 +05:30 [INF] Executed endpoint 'Blazor initializers'
+2024-12-30 19:32:33.663 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_vs/browserLink - 200 null text/javascript; charset=UTF-8 19.6435ms
+2024-12-30 19:32:33.664 +05:30 [INF] Request finished HTTP/2 GET https://localhost:5163/_blazor/initializers - 200 null application/json; charset=utf-8 14.1915ms
+2024-12-30 19:32:33.673 +05:30 [INF] Request starting HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - null 0
+2024-12-30 19:32:33.675 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:32:33.676 +05:30 [INF] Executing endpoint '/_blazor/negotiate'
+2024-12-30 19:32:33.677 +05:30 [INF] Executed endpoint '/_blazor/negotiate'
+2024-12-30 19:32:33.677 +05:30 [INF] Request finished HTTP/2 POST https://localhost:5163/_blazor/negotiate?negotiateVersion=1 - 200 316 application/json 5.2578ms
+2024-12-30 19:32:33.679 +05:30 [INF] Request starting HTTP/2 CONNECT https://localhost:5163/_blazor?id=vTjXVmjQAc1vc1sdr6K_yg - null null
+2024-12-30 19:32:33.681 +05:30 [INF] CORS policy execution successful.
+2024-12-30 19:32:33.682 +05:30 [INF] Executing endpoint '/_blazor'

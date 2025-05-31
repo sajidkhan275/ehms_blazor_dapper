@@ -1,0 +1,135 @@
+﻿@page "/health-info"
+@using EHMSWebApp.Interface
+@using EHMSModel
+@inject IEmployeeHealthInfoService employeeHealthInfoService
+@inject IWebHostEnvironment Environment
+@inject IEmployeeService employeeService
+@inject IHttpContextAccessor httpContextAccessor
+@inject AuthenticationStateProvider authenticationStateProvider
+<h3 class="text-start">Employee Health Info</h3>
+
+
+<div class="mb-3">
+    <input type="text" class="form-control" placeholder="Search by Employee, Blood Group, Medical Report File" @bind="searchQuery" @oninput="OnSearchChange" />
+</div>
+
+@if (UserRoles.Any(role => role == (int)UserRole.Admin || role == (int)UserRole.Employee))
+{
+    @if (!healthInfoExist)
+    {
+        <div class="text-start mb-3">
+            <button class="btn btn-primary" @onclick="OpenAddDialog">Add New Employee Health Info</button>
+        </div>
+    }
+}
+
+@if (filteredhealthInfo != null)
+{
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th @onclick='() => SortEmployees("EmployeeName")'>Employee @GetSortIcon("EmployeeName")</th>
+                    <th @onclick='() => SortEmployees("BloodGroup")'>Blood Group @GetSortIcon("BloodGroup")</th>
+                    <th @onclick='() => SortEmployees("MedicalReportFileName")'>Medical Report FileName @GetSortIcon("MedicalReportFileName")</th>
+                    <th @onclick='() => SortEmployees("Disability")'>Disability @GetSortIcon("Disability")</th>
+                    <th>Download Report</th>
+                    @if (UserRoles.Any(role => role == (int)UserRole.Admin || role == (int)UserRole.Employee) && healthInfoExist)
+                    {
+                        <th>Actions</th>
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var employee in pagedhealthInfo)
+                {
+                    <tr>
+                        <td>@employee.EmployeeName</td>
+                        <td>@employee.BloodGroup</td>
+                        <td>@employee.MedicalReportFileName</td>
+                        <td>@employee.Disability</td>
+                        <td>
+                            @if (!string.IsNullOrEmpty(employee.RecentMedicalReportPath))
+                            {
+                                <button class="btn btn-primary" @onclick="() => DownloadMedicalReport(employee)">
+                                    Download Report
+                                </button>
+                            }
+                            else
+                            {
+                                <span>No Report Available</span>
+                            }
+                        </td>
+                        @if (UserRoles.Any(role => role == (int)UserRole.Admin || role == (int)UserRole.Employee))
+                        {
+                            @if (employee.EmpId == EmpId)
+                            {
+                                <td>
+                                    <button class="btn btn-warning" @onclick="() => OpenEditDialog(employee)">Edit</button>
+                                    <button class="btn btn-danger" @onclick="() => ShowDeleteDialog(employee.EmployeeHealthInfoId)">Delete</button>
+                                </td>
+                            }
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <div class="d-flex justify-content-between">
+        <button class="btn btn-secondary" @onclick="PrevPage" disabled="@(currentPage == 1)">Previous</button>
+        <span>Page @currentPage of @totalPages</span>
+        <button class="btn btn-secondary" @onclick="NextPage" disabled="@(currentPage == totalPages)">Next</button>
+    </div>
+}
+
+@if (showAddEditDialog)
+{
+    <div class="modal fade show" style="display:block; background-color: rgba(0, 0, 0, 0.9);" tabindex="-1" aria-labelledby="fitnessModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="fitnessModalLabel">@((isEdit ? "Edit" : "Add New") + " Health Info")</h5>
+                    <button type="button" class="btn-close" @onclick="CloseDialog" aria-label="Close"></button>
+                </div>
+                <EditForm Model="@currenthealthInfo" OnValidSubmit="SaveHealthInfo">
+                    <DataAnnotationsValidator />
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="empId" class="form-label">Employee</label>
+                            <InputText id="empId" @bind-value="employeeWithRoleDetails.EmployeeDetails.EmployeeName" class="form-control" disabled="true" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="bloodgroup" class="form-label">Blood Group</label>
+                            <InputText id="bloodgroup" @bind-value="currenthealthInfo.BloodGroup" class="form-control" />
+                            <ValidationMessage For="@(() => currenthealthInfo.BloodGroup)" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="disability" class="form-label">Disability</label>
+                            <input id="disability" type="checkbox" @bind="currenthealthInfo.Disability" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="medical" class="form-label">@currenthealthInfo.MedicalReportFileName</label>
+                            <InputFile OnChange="HandleFileUpload" />
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" @onclick="CloseDialog">Cancel</button>
+                        <button type="submit" class="btn btn-success">Save</button>
+                    </div>
+                    <p>@StatusMessage</p>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+}
+
+
+<DeleteConfirmation Show="@showDeleteDialog"
+                    Title="Delete Health Info Record"
+                    Message="Are you sure you want to delete this record?"
+                    OnDeleteConfirmed="HandleDeleteConfirmed"
+                    OnCancel="CloseDeleteDialog"
+                    ItemId="@deleteRecordId" />
+

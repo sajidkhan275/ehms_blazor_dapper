@@ -1,0 +1,3009 @@
+{
+  "Version": 1,
+  "Hash": "2h56NXDkoP2JLj6T5QGN9eo5VT96S0sX/rbte1Lz5tE=",
+  "Source": "EHMSWebApp",
+  "BasePath": "_content/EHMSWebApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "EHMSWebApp\\wwwroot",
+      "Source": "EHMSWebApp",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\EHMSWebApp.styles.css",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "EHMSWebApp#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "5bdkuzzfg0",
+      "Integrity": "n0XXyzmDBQzASiX2ORI+onIsnbFwrsHuyqKU4C+l1oE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Sk\\EHMS\\EHMSWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\EHMSWebApp.styles.css"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EHMSWebApp.bundle.scp.css",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "EHMSWebApp#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "5bdkuzzfg0",
+      "Integrity": "n0XXyzmDBQzASiX2ORI+onIsnbFwrsHuyqKU4C+l1oE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Sk\\EHMS\\EHMSWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EHMSWebApp.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bpk8xqwxhs",
+      "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cmapd0fi15",
+      "Integrity": "BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.eot",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0uw8dim9nl",
+      "Integrity": "OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.otf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wk8x8xm0ah",
+      "Integrity": "sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sjnzgf7e1h",
+      "Integrity": "+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ll5grcv8wv",
+      "Integrity": "p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h4d0pazwgy",
+      "Integrity": "cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "css/open-iconic/FONT-LICENSE#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "48tmkg660f",
+      "Integrity": "jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "css/open-iconic/ICON-LICENSE#[.{fingerprint}]?",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4dwjve0o0b",
+      "Integrity": "aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\README.md",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "css/open-iconic/README#[.{fingerprint}]?.md",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8h4oiah9s0",
+      "Integrity": "rDb1fXbrDo8/dpt6Gi3UAobONVQv/lE2bB7lGwRQ0jM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\site.css",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ma9avzojwd",
+      "Integrity": "codN81ibgM7eYlkzIupYfdm1BxyhQcubyPP4GL+/p48=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\favicon.ico",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "61n19gt1b8",
+      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\desktop.ini",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "logs/desktop#[.{fingerprint}]?.ini",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9smyfwxrof",
+      "Integrity": "J5kc0+KJJwL2EP1SYomPHD36N+KgUIL9eTvOYemeLZg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logs\\desktop.ini"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20241230.txt",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "logs/log20241230#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qziofj27jv",
+      "Integrity": "2g6Te63rmle3kS6ehB6CsbcVyqCqsyssZ5u00G4XeEw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logs\\log20241230.txt"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20241231.txt",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "logs/log20241231#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ujzgypfwg8",
+      "Integrity": "+m3nzc51kycihxwtVqXaNYaWo1MfNmcTStZjd5zABKk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logs\\log20241231.txt"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250101.txt",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "logs/log20250101#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jrwsogd2zf",
+      "Integrity": "3zwFGISL5OxeUPjEY0J0xvlxKqXXPb0LIcKFUZrptgI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logs\\log20250101.txt"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250102.txt",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "logs/log20250102#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "qkgpe6o0kd",
+      "Integrity": "1rn1I/3BG9yyovN0qfqB9QzRPi1g95oG4CyVZ47XMpg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logs\\log20250102.txt"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250103.txt",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "logs/log20250103#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6a2i20k2n4",
+      "Integrity": "Dt4wbrASkbBvgIEpMWyCp24bHVyU5WWbnRndI74G5a0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logs\\log20250103.txt"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250107.txt",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "logs/log20250107#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "onepigloaj",
+      "Integrity": "jAfuwgnrMBDdg/A40tkxtqwKq1bx+ORWKInv165Qp2o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logs\\log20250107.txt"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250109.txt",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "logs/log20250109#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vabapwxdje",
+      "Integrity": "SR8u4KiCh2a9cd7VZb8CheqtUcNtmxSLanV4IPoea0E=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logs\\log20250109.txt"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\19f59acb-14c4-4d4b-a9a6-8d0ea9e56b8d5.pdf example_2009.pdf.enc",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "uploads/19f59acb-14c4-4d4b-a9a6-8d0ea9e56b8d5.pdf example_2009.pdf#[.{fingerprint}]?.enc",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8h0cb1vrkl",
+      "Integrity": "bMxYGhtgfvFDgP5zKXzeEsLRTOOpcJf1EzWopUbzZoA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\19f59acb-14c4-4d4b-a9a6-8d0ea9e56b8d5.pdf example_2009.pdf.enc"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\1d9edfac-e7cd-4a44-ba89-2d91c3a818b5Bench Policy.pdf.enc",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "uploads/1d9edfac-e7cd-4a44-ba89-2d91c3a818b5Bench Policy.pdf#[.{fingerprint}]?.enc",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "44os5v94hf",
+      "Integrity": "7AX0ivZUXOHpgKyVKK9XSAP/ArZ00GnDwtLGAzQZLhE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\1d9edfac-e7cd-4a44-ba89-2d91c3a818b5Bench Policy.pdf.enc"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\6e1378c7-99c7-438f-8578-7c375b500a5fBench Policy.pdf.enc",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "uploads/6e1378c7-99c7-438f-8578-7c375b500a5fBench Policy.pdf#[.{fingerprint}]?.enc",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "44os5v94hf",
+      "Integrity": "7AX0ivZUXOHpgKyVKK9XSAP/ArZ00GnDwtLGAzQZLhE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\6e1378c7-99c7-438f-8578-7c375b500a5fBench Policy.pdf.enc"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\dc1436ca-234d-46e0-961f-606fd5bdda39dummy.pdf.enc",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "uploads/dc1436ca-234d-46e0-961f-606fd5bdda39dummy.pdf#[.{fingerprint}]?.enc",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5hyh0nypdq",
+      "Integrity": "NxtlVcqyBD+swNVjWZ2abGa8XM9cbwQkP97Xafptgis=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\dc1436ca-234d-46e0-961f-606fd5bdda39dummy.pdf.enc"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\f86dd138-a43f-4546-9405-0295e84d5329Bench Policy.pdf.enc",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "uploads/f86dd138-a43f-4546-9405-0295e84d5329Bench Policy.pdf#[.{fingerprint}]?.enc",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "44os5v94hf",
+      "Integrity": "7AX0ivZUXOHpgKyVKK9XSAP/ArZ00GnDwtLGAzQZLhE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\f86dd138-a43f-4546-9405-0295e84d5329Bench Policy.pdf.enc"
+    },
+    {
+      "Identity": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\fa62de5b-ae13-4a36-86dd-6acbc8a4001adummy.pdf.enc",
+      "SourceId": "EHMSWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\",
+      "BasePath": "_content/EHMSWebApp",
+      "RelativePath": "uploads/fa62de5b-ae13-4a36-86dd-6acbc8a4001adummy.pdf#[.{fingerprint}]?.enc",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5hyh0nypdq",
+      "Integrity": "NxtlVcqyBD+swNVjWZ2abGa8XM9cbwQkP97Xafptgis=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\fa62de5b-ae13-4a36-86dd-6acbc8a4001adummy.pdf.enc"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/bootstrap/bootstrap.min.bpk8xqwxhs.css",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bpk8xqwxhs"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162720"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cmapd0fi15"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9395"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.0uw8dim9nl.eot",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0uw8dim9nl"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.eot"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.eot",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/vnd.ms-fontobject"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OK3poGPgzKI2NzNgP07XMbJa3Dz6USoUh/chSkSvQpc="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.h4d0pazwgy.woff",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h4d0pazwgy"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.woff"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.ll5grcv8wv.ttf",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ll5grcv8wv"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.ttf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.otf",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.sjnzgf7e1h.svg",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sjnzgf7e1h"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.svg",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55332"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+P1oQ5jPzOVJGC52E1oxGXIXxxCyMlqy6A9cNxGYzVk="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.ttf",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28028"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/x-font-ttf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-p+RP8CV3vRK1YbIkNzq3rPo1jyETPnR07ULb+HVYL8w="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "20996"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "font/otf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wk8x8xm0ah"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/font/fonts/open-iconic.otf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sDUtuZAEzWZyv/U1xl/9D3ehyU69JE+FvAcu5HQ+/a0="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/font/fonts/open-iconic.woff",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/font-woff"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cZPqVlRJfSNW0KaQ4+UPOXZ/v/QzXlejRDwUNdZIofI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/FONT-LICENSE",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4103"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/FONT-LICENSE.48tmkg660f",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4103"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "48tmkg660f"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/FONT-LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jA4J4h/k76zVxbFKEaWwFKJccmO0voOQ1DbUW+5YNlI="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/ICON-LICENSE",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/ICON-LICENSE.4dwjve0o0b",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1093"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4dwjve0o0b"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/ICON-LICENSE"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aF5g/izareSj02F3MPSoTGNbcMBl9nmZKDe04zjU/ss="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/README.8h4oiah9s0.md",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rDb1fXbrDo8/dpt6Gi3UAobONVQv/lE2bB7lGwRQ0jM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8h4oiah9s0"
+        },
+        {
+          "Name": "label",
+          "Value": "css/open-iconic/README.md"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rDb1fXbrDo8/dpt6Gi3UAobONVQv/lE2bB7lGwRQ0jM="
+        }
+      ]
+    },
+    {
+      "Route": "css/open-iconic/README.md",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/markdown"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rDb1fXbrDo8/dpt6Gi3UAobONVQv/lE2bB7lGwRQ0jM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rDb1fXbrDo8/dpt6Gi3UAobONVQv/lE2bB7lGwRQ0jM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2879"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"codN81ibgM7eYlkzIupYfdm1BxyhQcubyPP4GL+/p48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 06:07:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-codN81ibgM7eYlkzIupYfdm1BxyhQcubyPP4GL+/p48="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.ma9avzojwd.css",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2879"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"codN81ibgM7eYlkzIupYfdm1BxyhQcubyPP4GL+/p48=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 20 Dec 2024 06:07:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ma9avzojwd"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-codN81ibgM7eYlkzIupYfdm1BxyhQcubyPP4GL+/p48="
+        }
+      ]
+    },
+    {
+      "Route": "EHMSWebApp.5bdkuzzfg0.bundle.scp.css",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EHMSWebApp.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2841"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n0XXyzmDBQzASiX2ORI+onIsnbFwrsHuyqKU4C+l1oE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 06:56:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5bdkuzzfg0"
+        },
+        {
+          "Name": "label",
+          "Value": "EHMSWebApp.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n0XXyzmDBQzASiX2ORI+onIsnbFwrsHuyqKU4C+l1oE="
+        }
+      ]
+    },
+    {
+      "Route": "EHMSWebApp.5bdkuzzfg0.styles.css",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\EHMSWebApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2841"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n0XXyzmDBQzASiX2ORI+onIsnbFwrsHuyqKU4C+l1oE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 06:56:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5bdkuzzfg0"
+        },
+        {
+          "Name": "label",
+          "Value": "EHMSWebApp.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n0XXyzmDBQzASiX2ORI+onIsnbFwrsHuyqKU4C+l1oE="
+        }
+      ]
+    },
+    {
+      "Route": "EHMSWebApp.bundle.scp.css",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EHMSWebApp.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2841"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n0XXyzmDBQzASiX2ORI+onIsnbFwrsHuyqKU4C+l1oE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 06:56:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n0XXyzmDBQzASiX2ORI+onIsnbFwrsHuyqKU4C+l1oE="
+        }
+      ]
+    },
+    {
+      "Route": "EHMSWebApp.styles.css",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\obj\\Debug\\net8.0\\scopedcss\\bundle\\EHMSWebApp.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2841"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n0XXyzmDBQzASiX2ORI+onIsnbFwrsHuyqKU4C+l1oE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 06:56:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n0XXyzmDBQzASiX2ORI+onIsnbFwrsHuyqKU4C+l1oE="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.61n19gt1b8.ico",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61n19gt1b8"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Dec 2024 08:13:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "logs/desktop.9smyfwxrof.ini",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\desktop.ini",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J5kc0+KJJwL2EP1SYomPHD36N+KgUIL9eTvOYemeLZg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 13:29:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9smyfwxrof"
+        },
+        {
+          "Name": "label",
+          "Value": "logs/desktop.ini"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J5kc0+KJJwL2EP1SYomPHD36N+KgUIL9eTvOYemeLZg="
+        }
+      ]
+    },
+    {
+      "Route": "logs/desktop.ini",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\desktop.ini",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "46"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J5kc0+KJJwL2EP1SYomPHD36N+KgUIL9eTvOYemeLZg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 18 Dec 2024 13:29:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J5kc0+KJJwL2EP1SYomPHD36N+KgUIL9eTvOYemeLZg="
+        }
+      ]
+    },
+    {
+      "Route": "logs/log20241230.qziofj27jv.txt",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20241230.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145619"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2g6Te63rmle3kS6ehB6CsbcVyqCqsyssZ5u00G4XeEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 14:02:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qziofj27jv"
+        },
+        {
+          "Name": "label",
+          "Value": "logs/log20241230.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2g6Te63rmle3kS6ehB6CsbcVyqCqsyssZ5u00G4XeEw="
+        }
+      ]
+    },
+    {
+      "Route": "logs/log20241230.txt",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20241230.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145619"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2g6Te63rmle3kS6ehB6CsbcVyqCqsyssZ5u00G4XeEw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 14:02:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2g6Te63rmle3kS6ehB6CsbcVyqCqsyssZ5u00G4XeEw="
+        }
+      ]
+    },
+    {
+      "Route": "logs/log20241231.txt",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20241231.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "359659"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+m3nzc51kycihxwtVqXaNYaWo1MfNmcTStZjd5zABKk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 11:55:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+m3nzc51kycihxwtVqXaNYaWo1MfNmcTStZjd5zABKk="
+        }
+      ]
+    },
+    {
+      "Route": "logs/log20241231.ujzgypfwg8.txt",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20241231.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "359659"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+m3nzc51kycihxwtVqXaNYaWo1MfNmcTStZjd5zABKk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 11:55:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ujzgypfwg8"
+        },
+        {
+          "Name": "label",
+          "Value": "logs/log20241231.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+m3nzc51kycihxwtVqXaNYaWo1MfNmcTStZjd5zABKk="
+        }
+      ]
+    },
+    {
+      "Route": "logs/log20250101.jrwsogd2zf.txt",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250101.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "287425"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3zwFGISL5OxeUPjEY0J0xvlxKqXXPb0LIcKFUZrptgI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 09:32:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jrwsogd2zf"
+        },
+        {
+          "Name": "label",
+          "Value": "logs/log20250101.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3zwFGISL5OxeUPjEY0J0xvlxKqXXPb0LIcKFUZrptgI="
+        }
+      ]
+    },
+    {
+      "Route": "logs/log20250101.txt",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250101.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "287425"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3zwFGISL5OxeUPjEY0J0xvlxKqXXPb0LIcKFUZrptgI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 09:32:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3zwFGISL5OxeUPjEY0J0xvlxKqXXPb0LIcKFUZrptgI="
+        }
+      ]
+    },
+    {
+      "Route": "logs/log20250102.qkgpe6o0kd.txt",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250102.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1rn1I/3BG9yyovN0qfqB9QzRPi1g95oG4CyVZ47XMpg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 13:52:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qkgpe6o0kd"
+        },
+        {
+          "Name": "label",
+          "Value": "logs/log20250102.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1rn1I/3BG9yyovN0qfqB9QzRPi1g95oG4CyVZ47XMpg="
+        }
+      ]
+    },
+    {
+      "Route": "logs/log20250102.txt",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250102.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1rn1I/3BG9yyovN0qfqB9QzRPi1g95oG4CyVZ47XMpg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 02 Jan 2025 13:52:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1rn1I/3BG9yyovN0qfqB9QzRPi1g95oG4CyVZ47XMpg="
+        }
+      ]
+    },
+    {
+      "Route": "logs/log20250103.6a2i20k2n4.txt",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250103.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "226820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dt4wbrASkbBvgIEpMWyCp24bHVyU5WWbnRndI74G5a0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 11:48:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6a2i20k2n4"
+        },
+        {
+          "Name": "label",
+          "Value": "logs/log20250103.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dt4wbrASkbBvgIEpMWyCp24bHVyU5WWbnRndI74G5a0="
+        }
+      ]
+    },
+    {
+      "Route": "logs/log20250103.txt",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250103.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "226820"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Dt4wbrASkbBvgIEpMWyCp24bHVyU5WWbnRndI74G5a0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 11:48:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Dt4wbrASkbBvgIEpMWyCp24bHVyU5WWbnRndI74G5a0="
+        }
+      ]
+    },
+    {
+      "Route": "logs/log20250107.onepigloaj.txt",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250107.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jAfuwgnrMBDdg/A40tkxtqwKq1bx+ORWKInv165Qp2o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 10:53:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "onepigloaj"
+        },
+        {
+          "Name": "label",
+          "Value": "logs/log20250107.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jAfuwgnrMBDdg/A40tkxtqwKq1bx+ORWKInv165Qp2o="
+        }
+      ]
+    },
+    {
+      "Route": "logs/log20250107.txt",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250107.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jAfuwgnrMBDdg/A40tkxtqwKq1bx+ORWKInv165Qp2o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 10:53:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jAfuwgnrMBDdg/A40tkxtqwKq1bx+ORWKInv165Qp2o="
+        }
+      ]
+    },
+    {
+      "Route": "logs/log20250109.txt",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250109.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SR8u4KiCh2a9cd7VZb8CheqtUcNtmxSLanV4IPoea0E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 12:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SR8u4KiCh2a9cd7VZb8CheqtUcNtmxSLanV4IPoea0E="
+        }
+      ]
+    },
+    {
+      "Route": "logs/log20250109.vabapwxdje.txt",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\logs\\log20250109.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74258"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SR8u4KiCh2a9cd7VZb8CheqtUcNtmxSLanV4IPoea0E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 09 Jan 2025 12:13:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vabapwxdje"
+        },
+        {
+          "Name": "label",
+          "Value": "logs/log20250109.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SR8u4KiCh2a9cd7VZb8CheqtUcNtmxSLanV4IPoea0E="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/19f59acb-14c4-4d4b-a9a6-8d0ea9e56b8d5.pdf example_2009.pdf.8h0cb1vrkl.enc",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\19f59acb-14c4-4d4b-a9a6-8d0ea9e56b8d5.pdf example_2009.pdf.enc",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "569824"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bMxYGhtgfvFDgP5zKXzeEsLRTOOpcJf1EzWopUbzZoA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 07:45:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8h0cb1vrkl"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/19f59acb-14c4-4d4b-a9a6-8d0ea9e56b8d5.pdf example_2009.pdf.enc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bMxYGhtgfvFDgP5zKXzeEsLRTOOpcJf1EzWopUbzZoA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/19f59acb-14c4-4d4b-a9a6-8d0ea9e56b8d5.pdf example_2009.pdf.enc",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\19f59acb-14c4-4d4b-a9a6-8d0ea9e56b8d5.pdf example_2009.pdf.enc",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "569824"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bMxYGhtgfvFDgP5zKXzeEsLRTOOpcJf1EzWopUbzZoA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 07:45:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bMxYGhtgfvFDgP5zKXzeEsLRTOOpcJf1EzWopUbzZoA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/1d9edfac-e7cd-4a44-ba89-2d91c3a818b5Bench Policy.pdf.44os5v94hf.enc",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\1d9edfac-e7cd-4a44-ba89-2d91c3a818b5Bench Policy.pdf.enc",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7AX0ivZUXOHpgKyVKK9XSAP/ArZ00GnDwtLGAzQZLhE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 12:11:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "44os5v94hf"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/1d9edfac-e7cd-4a44-ba89-2d91c3a818b5Bench Policy.pdf.enc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7AX0ivZUXOHpgKyVKK9XSAP/ArZ00GnDwtLGAzQZLhE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/1d9edfac-e7cd-4a44-ba89-2d91c3a818b5Bench Policy.pdf.enc",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\1d9edfac-e7cd-4a44-ba89-2d91c3a818b5Bench Policy.pdf.enc",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7AX0ivZUXOHpgKyVKK9XSAP/ArZ00GnDwtLGAzQZLhE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 12:11:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7AX0ivZUXOHpgKyVKK9XSAP/ArZ00GnDwtLGAzQZLhE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/6e1378c7-99c7-438f-8578-7c375b500a5fBench Policy.pdf.44os5v94hf.enc",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\6e1378c7-99c7-438f-8578-7c375b500a5fBench Policy.pdf.enc",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7AX0ivZUXOHpgKyVKK9XSAP/ArZ00GnDwtLGAzQZLhE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 07:59:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "44os5v94hf"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/6e1378c7-99c7-438f-8578-7c375b500a5fBench Policy.pdf.enc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7AX0ivZUXOHpgKyVKK9XSAP/ArZ00GnDwtLGAzQZLhE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/6e1378c7-99c7-438f-8578-7c375b500a5fBench Policy.pdf.enc",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\6e1378c7-99c7-438f-8578-7c375b500a5fBench Policy.pdf.enc",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7AX0ivZUXOHpgKyVKK9XSAP/ArZ00GnDwtLGAzQZLhE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 07:59:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7AX0ivZUXOHpgKyVKK9XSAP/ArZ00GnDwtLGAzQZLhE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dc1436ca-234d-46e0-961f-606fd5bdda39dummy.pdf.5hyh0nypdq.enc",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\dc1436ca-234d-46e0-961f-606fd5bdda39dummy.pdf.enc",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NxtlVcqyBD+swNVjWZ2abGa8XM9cbwQkP97Xafptgis=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 11:29:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5hyh0nypdq"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/dc1436ca-234d-46e0-961f-606fd5bdda39dummy.pdf.enc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NxtlVcqyBD+swNVjWZ2abGa8XM9cbwQkP97Xafptgis="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/dc1436ca-234d-46e0-961f-606fd5bdda39dummy.pdf.enc",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\dc1436ca-234d-46e0-961f-606fd5bdda39dummy.pdf.enc",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NxtlVcqyBD+swNVjWZ2abGa8XM9cbwQkP97Xafptgis=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 03 Jan 2025 11:29:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NxtlVcqyBD+swNVjWZ2abGa8XM9cbwQkP97Xafptgis="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/f86dd138-a43f-4546-9405-0295e84d5329Bench Policy.pdf.44os5v94hf.enc",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\f86dd138-a43f-4546-9405-0295e84d5329Bench Policy.pdf.enc",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7AX0ivZUXOHpgKyVKK9XSAP/ArZ00GnDwtLGAzQZLhE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 12:02:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "44os5v94hf"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/f86dd138-a43f-4546-9405-0295e84d5329Bench Policy.pdf.enc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7AX0ivZUXOHpgKyVKK9XSAP/ArZ00GnDwtLGAzQZLhE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/f86dd138-a43f-4546-9405-0295e84d5329Bench Policy.pdf.enc",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\f86dd138-a43f-4546-9405-0295e84d5329Bench Policy.pdf.enc",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "90688"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7AX0ivZUXOHpgKyVKK9XSAP/ArZ00GnDwtLGAzQZLhE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 12:02:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7AX0ivZUXOHpgKyVKK9XSAP/ArZ00GnDwtLGAzQZLhE="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/fa62de5b-ae13-4a36-86dd-6acbc8a4001adummy.pdf.5hyh0nypdq.enc",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\fa62de5b-ae13-4a36-86dd-6acbc8a4001adummy.pdf.enc",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NxtlVcqyBD+swNVjWZ2abGa8XM9cbwQkP97Xafptgis=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 07:46:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5hyh0nypdq"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/fa62de5b-ae13-4a36-86dd-6acbc8a4001adummy.pdf.enc"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NxtlVcqyBD+swNVjWZ2abGa8XM9cbwQkP97Xafptgis="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/fa62de5b-ae13-4a36-86dd-6acbc8a4001adummy.pdf.enc",
+      "AssetFile": "C:\\Sk\\EHMS\\EHMSWebApp\\wwwroot\\uploads\\fa62de5b-ae13-4a36-86dd-6acbc8a4001adummy.pdf.enc",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13280"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NxtlVcqyBD+swNVjWZ2abGa8XM9cbwQkP97Xafptgis=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 01 Jan 2025 07:46:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NxtlVcqyBD+swNVjWZ2abGa8XM9cbwQkP97Xafptgis="
+        }
+      ]
+    }
+  ]
+}
